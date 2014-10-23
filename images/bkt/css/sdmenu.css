@@ -1,0 +1,76 @@
+div.sdmenu {
+	width: 243px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	padding-bottom: 10px;
+	
+	color: #fff; 
+}
+div.sdmenu div {
+	
+	overflow: hidden;
+}
+div.sdmenu div:first-child {
+	
+}
+div.sdmenu div.collapsed {
+	height: 35px;
+}
+div.sdmenu div span {
+	display: block;
+	padding: 5px 25px;
+	font-weight: bold;
+	color: #666;
+	
+	cursor: default;
+	border-bottom: 1px solid #ddd; 
+}
+
+div.sdmenu div span h1.one1 { font:Verdana, Geneva, sans-serif; margin:0px; padding:0px; font-size:12px; border-bottom:2px dotted #999; margin-left:20px; display:inline-block; font-weight:normal}
+
+div.sdmenu div.collapsed span#one{background: url(../img/one.png) no-repeat 10px center;}
+
+div.sdmenu div span h1.two2 { font:Verdana, Geneva, sans-serif; margin:0px; padding:0px; font-size:12px; border-bottom:2px dotted #999;  margin-left:20px; display:inline-block; font-weight:normal}
+
+div.sdmenu div.collapsed span#two{background: url(../img/two.png) no-repeat 10px center;}
+
+div.sdmenu div span h1.three3 { font:Verdana, Geneva, sans-serif; margin:0px; padding:0px; font-size:12px; border-bottom:2px dotted #999; margin-left:20px; display:inline-block; font-weight:normal}
+
+div.sdmenu div.collapsed span#three{background: url(../img/three.png) no-repeat 10px center;}
+
+div.sdmenu div span h1.four4 { font:Verdana, Geneva, sans-serif; margin:0px; padding:0px; font-size:12px; border-bottom:2px dotted #999; margin-left:20px; display:inline-block; font-weight:normal}
+
+div.sdmenu div.collapsed span#four{background: url(../img/four.png) no-repeat 10px center;}
+
+div.sdmenu div span h1.five5 { font:Verdana, Geneva, sans-serif; margin:0px; padding:0px; font-size:12px; border-bottom:2px dotted #999; margin-left:20px; display:inline-block; font-weight:normal}
+
+div.sdmenu div.collapsed span#five{background: url(../img/five.png) no-repeat 10px center;}
+
+div.sdmenu div span#one {background: url(../img/one.png) no-repeat 10px center;}
+div.sdmenu div span#two {background: url(../img/two.png) no-repeat 10px center;}
+div.sdmenu div span#three {background: url(../img/three.png) no-repeat 10px center;}
+div.sdmenu div span#four {background: url(../img/four.png) no-repeat 10px center;}
+div.sdmenu div span#five {background: url(../img/five.png) no-repeat 10px center;}
+
+
+
+
+
+div.sdmenu div.collapsed span {
+	background-image: url(../img/one.png) no-repeat 10px center;
+}
+div.sdmenu div a {
+	padding: 5px 5px;
+	background: #eee;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	color: #666;
+}
+div.sdmenu div a.current {
+	background : #ccc;
+}
+div.sdmenu div a:hover {
+	background : #f29f21 url(../img/linkarrow.gif) no-repeat right center;
+	color: #fff;
+	text-decoration: none; 
+}

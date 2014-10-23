@@ -1,0 +1,285 @@
+
+/*left*/
+.sh_help_button_left{ 
+background:#db8404;
+background-image: linear-gradient(right , rgb(255,210,105) 2%, rgb(235,167,7) 2%, rgb(218,129,4) 98%);
+background-image: -o-linear-gradient(right , rgb(255,210,105) 2%, rgb(235,167,7) 2%, rgb(218,129,4) 98%);
+background-image: -moz-linear-gradient(right , rgb(255,210,105) 2%, rgb(235,167,7) 2%, rgb(218,129,4) 98%);
+background-image: -webkit-linear-gradient(right , rgb(255,210,105) 2%, rgb(235,167,7) 2%, rgb(218,129,4) 98%);
+background-image: -ms-linear-gradient(right , rgb(255,210,105) 2%, rgb(235,167,7) 2%, rgb(218,129,4) 98%);
+
+background-image: -webkit-gradient(
+	linear,
+	right top,
+	left top,
+	color-stop(0.02, rgb(255,210,105)),
+	color-stop(0.02, rgb(235,167,7)),
+	color-stop(0.98, rgb(218,129,4))
+);
+    color: #fff;   
+    border:1px solid #db8404;
+}
+
+
+
+.sh_help_button_left:hover{
+background:#db8404;
+background-image: linear-gradient(right , rgb(255,210,105) 2%, rgb(235,184,53) 2%, rgb(218,148,44) 98%);
+background-image: -o-linear-gradient(right , rgb(255,210,105) 2%, rgb(235,184,53) 2%, rgb(218,148,44) 98%);
+background-image: -moz-linear-gradient(right , rgb(255,210,105) 2%, rgb(235,184,53) 2%, rgb(218,148,44) 98%);
+background-image: -webkit-linear-gradient(right , rgb(255,210,105) 2%, rgb(235,184,53) 2%, rgb(218,148,44) 98%);
+background-image: -ms-linear-gradient(right , rgb(255,210,105) 2%, rgb(235,184,53) 2%, rgb(218,148,44) 98%);
+
+background-image: -webkit-gradient(
+	linear,
+	right top,
+	left top,
+	color-stop(0.02, rgb(255,210,105)),
+	color-stop(0.02, rgb(235,184,53)),
+	color-stop(0.98, rgb(218,148,44))
+);
+}
+
+
+
+.sh_help_button_chat{
+    background: url('../../img/ic_sh.png') no-repeat;
+    
+}
+
+
+
+.sh_help_button_line{    
+
+    background:#db8404;
+    box-shadow:0 1px 0 0 rgba(255,255,255,0.4);
+
+   
+}
+
+
+.sh_help_button_top .sh_help_button_line.sh_line_track,
+.sh_help_button_bottom .sh_help_button_line.sh_line_track
+{
+    background:#db8404;
+    box-shadow: 1px 0 0 rgba(255,255,255,0.4);
+}
+
+
+/*left*/
+
+
+
+/*Right*/
+.sh_help_button_right{
+background:#db8404;
+background-image: linear-gradient(right , rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 98%);
+background-image: -o-linear-gradient(right , rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 98%);
+background-image: -moz-linear-gradient(right , rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 98%);
+background-image: -webkit-linear-gradient(right , rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 98%);
+background-image: -ms-linear-gradient(right , rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 98%);
+
+background-image: -webkit-gradient(
+	linear,
+	right top,
+	left top,
+	color-stop(0, rgb(218,129,4)),
+	color-stop(0.98, rgb(235,167,7)),
+	color-stop(0.98, rgb(255,210,105))
+);
+    color: #fff;   
+    border:1px solid #db8404;
+}
+
+
+
+.sh_help_button_right:hover{
+background:#db8404;
+background-image: linear-gradient(right , rgb(218,148,44) 0%, rgb(235,184,53) 98%, rgb(255,210,105) 98%);
+background-image: -o-linear-gradient(right , rgb(218,148,44) 0%, rgb(235,184,53) 98%, rgb(255,210,105) 98%);
+background-image: -moz-linear-gradient(right , rgb(218,148,44) 0%, rgb(235,184,53) 98%, rgb(255,210,105) 98%);
+background-image: -webkit-linear-gradient(right , rgb(218,148,44) 0%, rgb(235,184,53) 98%, rgb(255,210,105) 98%);
+background-image: -ms-linear-gradient(right , rgb(218,148,44) 0%, rgb(235,184,53) 98%, rgb(255,210,105) 98%);
+
+background-image: -webkit-gradient(
+	linear,
+	right top,
+	left top,
+	color-stop(0, rgb(218,148,44)),
+	color-stop(0.98, rgb(235,184,53)),
+	color-stop(0.98, rgb(255,210,105))
+);
+}
+
+
+
+/*Right*/
+
+
+
+
+
+/*bottom*/
+.sh_help_button_bottom{
+    background-image: linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -o-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -moz-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -webkit-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -ms-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9a404', endColorstr='#db8404',GradientType=0 );*/
+    background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(218,129,4)),
+	    color-stop(0.98, rgb(235,167,7)),
+	    color-stop(0.99, rgb(255,210,105))
+    );
+    background-color: #db8404;
+    color: #fff;   
+    border:1px solid #db8404;
+}
+
+
+
+.sh_help_button_bottom:hover{
+    background-image: linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -o-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -moz-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -webkit-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -ms-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9a404', endColorstr='#db8404',GradientType=0 );*/
+    background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(218,148,44)),
+	    color-stop(0.98, rgb(235,181,53)),
+	    color-stop(0.99, rgb(255,210,105))
+    );
+    background-color: #db8404;
+}
+
+
+
+.sh_help_button_bottom .sh_help_button_chat{
+    background: url('../../img/ic_sh.png') no-repeat;
+
+    float: left;
+
+}
+
+
+
+.sh_help_button_bottom .sh_help_button_line{
+    display:none;
+}
+
+
+
+
+/*bottom*/
+
+
+
+
+
+/*top*/
+.sh_help_button_top{
+    background-image: linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -o-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -moz-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -webkit-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -ms-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9a404', endColorstr='#db8404',GradientType=0 );*/
+    background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(218,129,4)),
+	    color-stop(0.98, rgb(235,167,7)),
+	    color-stop(0.99, rgb(255,210,105))
+    );
+    background-color: #db8404;
+    color: #fff;   
+    border:1px solid #db8404;
+}
+
+
+.sh_help_button_top:hover{
+    background-image: linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -o-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -moz-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -webkit-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -ms-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9a404', endColorstr='#db8404',GradientType=0 );*/
+    background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(218,148,44)),
+	    color-stop(0.98, rgb(235,181,53)),
+	    color-stop(0.99, rgb(255,210,105))
+    );
+    background-color: #db8404;
+}
+
+
+.sh_help_button_top .sh_help_button_chat{
+    background: url('../../img/ic_sh.png') no-repeat;
+
+    float: left;
+    margin-top: 6px;
+    margin-right: 8px;
+
+}
+
+
+.sh_help_button_top .sh_help_button_line{
+    display:none;
+}
+
+
+.sh_help_button_top .sh_help_button_chat{
+    margin-left:0;
+}
+/*top*/
+
+.sh_chat_invite_bt_ok {
+    background-image: linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -o-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -moz-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -webkit-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    background-image: -ms-linear-gradient(bottom, rgb(218,129,4) 0%, rgb(235,167,7) 98%, rgb(255,210,105) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9a404', endColorstr='#db8404',GradientType=0 );
+    background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(218,129,4)),
+	    color-stop(0.98, rgb(235,167,7)),
+	    color-stop(0.99, rgb(255,210,105))
+    );
+    
+border: 1px solid #db8404;
+}
+.sh_chat_invite_bt_ok:hover {
+    background-image: linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -o-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -moz-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -webkit-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    background-image: -ms-linear-gradient(bottom, rgb(218,148,44) 0%, rgb(235,181,53) 98%, rgb(255,210,105) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9a404', endColorstr='#db8404',GradientType=0 );
+    background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(218,148,44)),
+	    color-stop(0.98, rgb(235,181,53)),
+	    color-stop(0.99, rgb(255,210,105))
+    );
+    
+}
+.sh_help_button_text{
+	color: #fff !important;
+}

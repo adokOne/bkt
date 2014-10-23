@@ -1,0 +1,353 @@
+var social_login_initialised = false;
+
+var login_callback = [];
+
+login_callback.push( function (){
+	$('.header .b_right').html('');
+	$('.header .b_right').load('/user/logged_in_card');
+	TypesViews();
+	hideLoader();
+
+});
+
+
+var logout_callback = "emptyFunc";
+
+function emptyFunc(){};
+
+var registerCallback = 'redirectToProfile';
+
+function redirectToProfile( user_id ){
+	window.location.href = '/user/profile/'+user_id;
+}
+
+
+function call_callback_stack ( user_id ){
+	for(i in login_callback){
+		setTimeout('login_callback[' + i + '](\'' + user_id + '\')',1);
+	}
+}
+
+//facebook init
+
+function init_social_login(){
+	//prevent double init
+	if(!social_login_initialised)
+        {
+            //return false;
+			
+            //window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : FBappId,
+                    status     : true,
+                    cookie     : true,
+                    xfbml      : true
+                });
+            //};
+	
+            //window.vkAsyncInit = function() {
+                VK.init({
+                    apiId: VKappId,
+                    nameTransportPath: "/xd_receiver.html"
+                });
+            //};
+            
+            social_login_initialised = true;
+	}
+}
+
+$(document).ready(function() {
+	init_social_login();
+});
+
+
+function doVKLogin(){
+	VK.Auth.login(function(response){
+		 if (response.session) {
+			 // user successfully logged in
+			 if( $('.bg_loader').is(":visible") )
+					showRegLoading('Обработка данных соцсети...');
+			 else
+					showLoader('Обработка данных соцсети...');
+			 
+			$.ajax({
+				type: "POST",
+				url: "/user/vkregister/",
+				dataType: 'json',
+				success: function(msg){
+									hideRegLoading();
+                                    if (msg.status == false)
+                                        alert(msg.msg)
+                                    else if (msg.status == 'registered'){
+                                    	setTimeout('call_callback_stack(\'' + msg.user_id + '\')',1);
+                                    }else {
+                                    	
+                                    	if( typeof showRegisterForm != 'function' ){
+                                    		hideLoader();
+                                    		alert("Такой пользователь не зарегистрирован!");
+                                    		return;
+                                    	}
+                                    	
+                                        $('#social_networks').hide();
+                                        $('.standart_register_fields').hide();
+                                        showErrors( ['Проверьте заполненую информацию и заполните недостающие поля.'] );
+                                        showRegisterForm();
+                                        $('#register_form [name="username"]').val(msg.last_name + " " + msg.first_name);
+                                        $('#register_form [name="code"]').val('vkontakte');
+                                        $('#register_form [name="vkontakte"]').val(msg.uid);
+                                        $('#register_form [name="picture"]').val(msg.photo_big);
+                                        
+                                    }
+                                },
+				error: function(msg){
+					    hideRegLoading();
+						alert('Error occured on server. Please try again.');
+				}
+			});    
+		  } else {
+	  		/* Пользователь нажал кнопку Отмена в окне авторизации */
+		  }
+	});
+}
+
+
+function doFbLogin(){
+	  FB.login( function(response) {
+		  if (response.status == "connected") {
+		    // user successfully logged in
+			if( $('.bg_loader').is(":visible") )
+				showRegLoading('Обработка данных соцсети...');
+			else
+				showLoader('Обработка данных соцсети...');
+			
+			$.ajax({
+				type: "POST",
+				url: "/user/fbregister/",
+				dataType: 'json',
+				data: { 'access_token': response.authResponse.accessToken,
+						'uid': response.authResponse.userID },
+				success: function(msg){
+									hideRegLoading();
+                                    if (msg.status == 'fail')
+                                        alert(msg.msg)
+                                    else if (msg.status == 'registered')
+                                    	setTimeout('call_callback_stack(\'' + msg.user_id + '\')',1);
+                                    else {
+                                    	
+                                    	if( typeof showRegisterForm != 'function' ){
+                                    		hideLoader();
+                                    		alert("Такой пользователь не зарегистрирован!");
+                                    		return;
+                                    	}
+                                    	
+                                        $('#social_networks').hide();
+                                        $('.standart_register_fields').hide();
+                                        showErrors( ['Проверьте заполненую информацию и заполните недостающие поля.'] );
+                                        showRegisterForm();
+                                        $('#register_form [name="username"]').val(msg.last_name + " " + msg.first_name);
+                                        $('#register_form [name="email"]').val(msg.email);
+                                        $('#register_form [name="code"]').val('facebook');
+                                        $('#register_form [name="facebook"]').val(msg.id);
+                                        $('#register_form [name="picture"]').val(msg.picture);
+                                 
+                                    }
+                                },
+				error: function(msg){
+									hideRegLoading();
+                                    alert('Error occured on server. Please try again.');
+				}
+             });
+		  } else {
+		    // user cancelled login
+			  console.log(response);
+			  alert('login canceled');
+		  }
+		}, {scope: 'email,user_birthday,user_hometown,user_location,user_website' } );
+}
+
+function doTwitterLogin(){
+
+    var left = parseInt((screen.availWidth/2) - (600/2));
+    var top = parseInt((screen.availHeight/2) - (400/2));
+    var windowFeatures = "menubar=0,width=600,height=400,status,resizable=1,left=" + left + ",top=" + top + "screenX=" + left + ",screenY=" + top;
+
+	window.open ("/user/twitter","Twitter login", windowFeatures );
+}
+
+function TwitterSetData (userID, name, picture ){
+
+	if( $('.bg_loader').is(":visible") )
+		showRegLoading('Обработка данных...');
+	else
+		showLoader('Обработка данных...');
+
+	$.ajax({
+		type: "POST",
+		url: "/user/twregister/",
+		dataType: 'json',
+		data: { 'uid': userID },
+		success: function(msg){
+							hideRegLoading();
+                            if (msg.status == 'fail')
+                                alert(msg.msg)
+                            else if (msg.status == 'registered')
+                            	setTimeout('call_callback_stack(\'' + msg.user_id + '\')',1);
+                            else {
+                            	
+                            	if( typeof showRegisterForm != 'function' ){
+                            		hideLoader();
+                            		alert("Такой пользователь не зарегистрирован!");
+                            		return;
+                            	}
+                            	
+                            	
+                                $('#social_networks').hide();
+                                $('.standart_register_fields').hide();
+                     
+                                showErrors( ['Проверьте заполненую информацию и заполните недостающие поля.'] );
+                                showRegisterForm();
+                                $('#register_form [name="username"]').val(name);
+                                $('#register_form [name="email"]').val('');
+                                $('#register_form [name="code"]').val('twitter');
+                                $('#register_form [name="twitter"]').val(userID);
+                                $('#register_form [name="picture"]').val(picture);
+                            }
+                        },
+		error: function(msg){
+							hideRegLoading();
+                            alert('Error occured on server. Please try again.');
+		}
+     });
+}
+
+function doLogin(){
+
+	showRegLoading('Обработка данных...');
+		
+	$.ajax({
+		type: "POST",
+		url: "/user/ajax_login/",
+		dataType: 'json',
+		data: {'username': $('#baloon_username').val(),
+			   'password': $('#baloon_userpass').val(),
+			   'remember': $('#baloon_remember_me').attr('checked') ? 1 : 0  
+			  },
+		success: function(msg){
+			    hideRegLoading();
+				if(msg.status == "ok"){
+					setTimeout('call_callback_stack(\'' + msg.user_id + '\')',1);
+				}else{
+					alert(msg.msg);
+				}
+			},
+		error: function(msg){
+				hideRegLoading();
+				alert('Error occured on server. Please try again.');
+			}
+	});
+	
+	return false;
+}
+
+function showLogin(){
+	showLoader('<p><center>Загрузка формы входа...</center></p>');
+	
+	$.ajax({
+		type: "POST",
+		url: "/user/get_loginform/",
+		dataType: 'json',
+		success: function(msg){
+				if(msg.succes == true){
+					setLoaderHTML(msg.html);
+				}else{
+					alert(msg.errors);
+				}
+			},
+			error: function(msg){
+				hideLoader();
+				alert('Error occured on server. Please try again.');
+			}
+	});
+	
+}
+
+
+// Helper functions
+function centerLoader(){
+	var hw = $(window).height();
+	var hb = $('.b_loader_text').height();
+	var wb = $('.b_loader_text').width();
+	var i = (hw-hb)/2;
+	var j = wb/2;
+	if(i < 0) i = 50;
+	
+	$('.b_loader_text').css('top', i+'px').css('margin-left',-j+'px').css('position' , 'fixed');
+}
+
+function setLoaderTEXT( message , loading_img  ){
+	setLoaderHTML( '<p><center>' + message + '</center></p>' , loading_img );
+}
+
+function setLoaderHTML( message , loading_img  ){
+	
+	var content = '<div id="regform_ajax_cover" style="display: none;"></div> \
+<div id="regform_ajax_msg" style="display: none;"> \
+	<div id="regform_ajax_msg_text"></div> \
+	<div id="regform_ajax_msg_image"><img src="/img/loader.gif" class="b_loader" alt="loader" align="bottom" /></div> \
+</div>\
+';
+	
+	if(loading_img)
+		content = content + message + '<img src="/img/loader.gif" class="b_loader" alt="loader" />';
+	else
+		content = content + message;
+	
+	$('.b_loader_text').html( content );
+	centerLoader();
+	
+}
+
+function showLoader(message){
+	$('.bg_loader').show();
+	setLoaderTEXT( message, 1 );
+	$('.b_loader_text').show();	
+}
+
+
+function hideLoader(){
+	$('.bg_loader').hide();
+	$('.b_loader_text').hide();
+}
+function showErrors( errors_array ){
+	
+	$('.errors_list').show();
+	$('.errors_list').html('');
+	
+	//errors = "<center>Пожалуйста исправте следующие ошибки:</center><br />";
+	for( k in errors_array){
+		$('#renAddForm input[name="' + k + '"]').addClass('error')
+		$('.errors_list').append('<li>*' + errors_array[k] + '</li>');
+	};
+	
+	//var button = '<br><center><button onclick="hideLoader()">OK</button></center><br><br>';
+	//setLoaderMessage( errors + button, 1 );
+	//hideLoader();
+}
+
+
+// second loader
+function showRegLoading( message ){
+	$('#regform_ajax_cover').show();
+	$('#regform_ajax_msg').show();
+	$('#regform_ajax_msg_text').html(message);
+}
+
+function hideRegLoading(){
+	$('#regform_ajax_cover').hide();
+	$('#regform_ajax_msg').hide();
+	$('#regform_ajax_msg_text').html('');
+}
+function Waiting(){
+showLoader('<p><center>Загрузка данных...</center></p>');
+}
+

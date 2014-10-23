@@ -1,0 +1,25 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+class Cities_Admin extends Constructor
+{
+    protected $item_table   = 'city';
+    protected $orderby      = 'id';
+    protected $order_dir    = 'DESC';
+    protected $use_tree     = FALSE;
+    protected $use_form     = TRUE;
+    protected $use_combo    = FALSE;
+    protected $use_logo     = FALSE;
+    protected $multi_lang   = TRUE;
+	
+   
+    protected $grid_columns = array(
+        "id",
+    	"status",
+    	"countries_id",
+    	"(SELECT name FROM countries_lang WHERE countries_id = daddy.countries_id AND id_lang=1) AS countries_name",
+    	"(SELECT name FROM city_lang WHERE city_id = daddy.id AND id_lang=1) AS name_1",
+    	"(SELECT name FROM city_lang WHERE city_id = daddy.id AND id_lang=2) AS name_2",
+    	"(SELECT name FROM city_lang WHERE city_id = daddy.id AND id_lang=3) AS name_3",
+        
+    );
+}

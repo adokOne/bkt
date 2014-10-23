@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/spotters/!svn/ver/5/trunk/modules/user/i18n/ru_RU
+END
+friendship.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/spotters/!svn/ver/5/trunk/modules/user/i18n/ru_RU/friendship.php
+END
+user.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/spotters/!svn/ver/5/trunk/modules/user/i18n/ru_RU/user.php
+END
+login_errors.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/spotters/!svn/ver/5/trunk/modules/user/i18n/ru_RU/login_errors.php
+END
+registration_custom_errors.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/spotters/!svn/ver/5/trunk/modules/user/i18n/ru_RU/registration_custom_errors.php
+END

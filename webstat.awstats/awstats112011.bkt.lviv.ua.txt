@@ -1,0 +1,1489 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201111 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.bkt.lviv.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1957                
+POS_TIME 2629                
+POS_VISITOR 29036               
+POS_DAY 54578               
+POS_DOMAIN 3459                
+POS_LOGIN 3694                
+POS_ROBOT 3849                
+POS_WORMS 4200                
+POS_EMAILSENDER 4331                
+POS_EMAILRECEIVER 4474                
+POS_SESSION 54668               
+POS_SIDER 54880               
+POS_FILETYPES 4609                
+POS_OS 4827                
+POS_BROWSER 4983                
+POS_SCREENSIZE 6242                
+POS_UNKNOWNREFERER 6316                
+POS_UNKNOWNREFERERBROWSER 6403                
+POS_ORIGIN 6485                
+POS_SEREFERRALS 6632                
+POS_PAGEREFS 6800                
+POS_SEARCHWORDS 22022               
+POS_KEYWORDS 25454               
+POS_MISC 2293                
+POS_ERRORS 27913               
+POS_CLUSTER 3550                
+POS_SIDER_404 28063               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120803001227 1 0 19020660440130
+FirstTime 20111117002219
+LastTime 20111117235046
+LastUpdate 20120804003408 1 0 0 0 0
+TotalVisits 657                 
+TotalUnique 592                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 634                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 15 109 1330000 6 22 17801
+1 98 2179 28997711 12 95 692043
+2 110 2430 30603912 1 89 7981
+3 50 992 16067775 2 59 14797
+4 28 577 6895923 2 25 7811
+5 12 290 3465907 2 17 7074
+6 25 714 8934110 7 29 34722
+7 110 2296 30324087 7 102 75522
+8 233 5829 70561768 3 193 15787
+9 290 6633 90115147 16 282 1893543
+10 193 3149 39103624 4 134 22870
+11 45 556 8058179 5 52 127226
+12 23 431 9035729 6 21 58564
+13 10 176 3119473 0 8 0
+14 24 185 3751500 2 6 900
+15 295 1494 8643170 22 75 27672
+16 551 1089 7761636 2 19 900
+17 14 338 4562509 2 26 4689
+18 32 639 9036889 1 49 19407
+19 52 429 4958679 0 84 28716
+20 32 398 7237441 1 54 11793
+21 12 283 5049972 4 26 16428
+22 23 415 7347482 1 28 6666
+23 15 248 4193640 2 19 4465
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2292 31879 409156263
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+bot[\s_+:,\.\;\/\\-] 57 2076551 20111117214958 4
+yandex 11 69135 20111117185651 2
+googlebot 9 38636 20111117212616 3
+no_user_agent 3 81016 20111117110955 0
+unknown 2 872 20111117073647 2
+mj12bot 2 7587 20111117082515 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+php 2162 11827170 0 0
+css 2597 9522794 0 0
+png 17501 144221568 0 0
+html 89 602395 0 0
+js 5284 194216475 0 0
+jpg 651 20012730 0 0
+gif 3554 3071468 0 0
+swf 41 25681663 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+macosx 203
+winxp 13693
+winlong 488
+win2003 95
+winnt 1
+win2000 46
+linuxubuntu 62
+winvista 64
+linux 397
+win2008 16830
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 66
+msie6.0 115
+chrome15.0.874.102 47
+firefox3.6.24 106
+chrome12.0.742.100 93
+firefox3.6 49
+chrome12.0.742.5 111
+firefox4.0 96
+chrome7.0.517.44 45
+chrome13.0.782.218 45
+chrome7.0.517.41 55
+safari5.0.2 90
+chrome10.0.651.0 46
+msie8.0 1360
+chrome13.0.782.107 1557
+chrome7.0.534.0 1
+msie7.0 189
+chrome9.0.597.84 47
+chrome1.0.154.36 3
+chrome15.0.849.0 50
+chrome11.0.696.16 86
+chrome10.0.648.133 28
+chrome1.0.154.48 7
+chrome15.0.874.120 8984
+firefox7.0.1 1848
+opera9.51 48
+chrome5.0.375.86 47
+firefox3.5.19 47
+chrome11.0.696.71 45
+safari 45
+chrome15.0.874.106 365
+firefox5.0 131
+firefox4.0.1 93
+firefox3.5.4 46
+firefox8.0 4236
+firefox9.0 153
+chrome12.0.742.112 46
+firefox3.5.3 105
+opera9.80 8918
+chrome15.0.874.121 163
+chrome14.0.835.163 45
+chrome3.0.195.24 47
+chrome10.0.648.204 45
+chrome12.0.742.124 45
+msie9.0 557
+chrome14.0.835.202 246
+firefox3.0.8 46
+chrome8.0.552.224 140
+chrome12.0.712.0 52
+chrome9.0.597.107 1
+chrome16.0.912.41 49
+chrome14.0.835.186 201
+firefox3.5.1 23
+ossproxy 1
+chrome12.0.742 48
+chrome9.0.565.0 49
+konqueror4.4 2
+chrome13.0.782.215 49
+chrome12.0.742.122 189
+firefox5.0.1 71
+firefox6.0 170
+safari5.1 49
+firefox3.6.12 35
+chrome14.0.835.187 11
+firefox3.0.19 106
+firefox3.6.8 9
+firefox3.5.7 47
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 109 246
+From1 0 0
+From2 36 36
+From3 617 617
+From4 1530 30980
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 35 35
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 411
+http://vkontakte.ru/feed 62 62
+http://vkontakte.ru/mail 30 30
+http://vkontakte.ru/friends 27 27
+http://vkontakte.ru 15 15
+http://vkontakte.ru/apps 13 13
+http://vkontakte.ru/away.php 12 12
+http://vkontakte.ru/im 12 12
+http://vkontakte.ru/ads_moder.php 7 7
+http://portfolio.itstep.org 5 5
+http://vkontakte.ru/ads.php 4 4
+http://vkontakte.ru/id43576708 1 1
+http://vkontakte.ru/id27480108 1 1
+http://vkontakte.ru/app2257829 2 2
+http://vkontakte.ru/app633984_41129969 1 1
+http://vkontakte.ru/app2181108_82580156 1 1
+http://vkontakte.ru/id73126780 1 1
+http://vkontakte.ru/id68460549 1 1
+http://vkontakte.ru/id23143315 1 1
+http://vkontakte.ru/app2234380_32214693 1 1
+http://vkontakte.ru/id90840375 1 1
+http://vkontakte.ru/svjatoslav_drobenko 1 1
+http://vkontakte.ru/id54609567 2 2
+http://vkontakte.ru/id143323974 1 1
+http://vkontakte.ru/koloda90 1 1
+http://vkontakte.ru/id28716867 1 1
+http://vkontakte.ru/this_is_aw3s0m3 1 1
+http://vkontakte.ru/app1744756_34546731 1 1
+http://vkontakte.ru/id19060150 1 1
+http://vkontakte.ru/id18102993 1 1
+http://vkontakte.ru/id68764638 1 1
+http://vkontakte.ru/wormix 2 2
+http://vkontakte.ru/id23275976 1 1
+http://vkontakte.ru/id19936295 1 1
+http://vkontakte.ru/id8306259 1 1
+http://vkontakte.ru/id102615038 1 1
+http://vkontakte.ru/id137173499 1 1
+http://vkontakte.ru/app2164459_82491805 1 1
+http://vkontakte.ru/id11054662 1 1
+http://vkontakte.ru/id37011697 1 1
+http://vkontakte.ru/id134892077 1 1
+http://vkontakte.ru/id87476280 1 1
+http://vkontakte.ru/rules_of_war 2 2
+http://vkontakte.ru/id60676592 1 1
+http://vkontakte.ru/mail.php 1 1
+http://vkontakte.ru/app1979194_140026977 1 1
+http://vkontakte.ru/id3812081 1 1
+http://vkontakte.ru/mindf_cker 1 1
+http://vkontakte.ru/app633984_28869278 1 1
+http://vkontakte.ru/id13203889 1 1
+http://vkontakte.ru/id68215632 1 1
+http://vkontakte.ru/app2047522_138741176 1 1
+http://vkontakte.ru/app2146457_8570701 1 1
+http://vkontakte.ru/hnatko 1 1
+http://vkontakte.ru/id8538398 1 1
+http://vkontakte.ru/album36739146_118643204 2 2
+http://vkontakte.ru/id67878273 1 1
+http://vkontakte.ru/id29431413 1 1
+http://vkontakte.ru/app1991049_20777127 1 1
+http://vkontakte.ru/id72208910 1 1
+http://vkontakte.ru/app612925_68447093 1 1
+http://vkontakte.ru/id20383778 1 1
+http://vkontakte.ru/id109872757 1 1
+http://vkontakte.ru/album-25609551_140990739 1 1
+http://vkontakte.ru/id101436099 1 1
+http://vkontakte.ru/id87330929 1 1
+http://vkontakte.ru/id13843583 1 1
+http://vkontakte.ru/id71519207 1 1
+http://vkontakte.ru/id37024925 1 1
+http://vkontakte.ru/app1979194_15722613 1 1
+http://vkontakte.ru/app2164459_22823580 1 1
+http://vkontakte.ru/id27742928 1 1
+http://vkontakte.ru/id36272735 1 1
+http://vkontakte.ru/id34241357 1 1
+http://vkontakte.ru/oligarch2 1 1
+http://vkontakte.ru/gimme_cyanide 1 1
+http://vkontakte.ru/id17134451 1 1
+http://vkontakte.ru/id8664767 1 1
+http://vkontakte.ru/id133317539 1 1
+http://vkontakte.ru/id11308087 1 1
+http://vkontakte.ru/app2284479_30076525 1 1
+http://vkontakte.ru/app1979194_51644871 1 1
+http://vkontakte.ru/app1995682_129515443 1 1
+http://go.mail.ru/search 1 1
+http://vkontakte.ru/ryde_scyko 1 1
+http://vkontakte.ru/the.vikings 1 1
+http://vkontakte.ru/julia_zapotocka 1 1
+http://vkontakte.ru/durnev_tet 2 2
+http://vkontakte.ru/id23315759 1 1
+http://vkontakte.ru/djbitray 1 1
+http://vkontakte.ru/id7987132 1 1
+http://vkontakte.ru/app1979194_17555508 1 1
+http://vkontakte.ru/id68127614 1 1
+http://vkontakte.ru/app2181108 1 1
+http://vkontakte.ru/app2014593_31037449 1 1
+http://vkontakte.ru/app1979194_33209003 1 1
+http://vkontakte.ru/id134952946 1 1
+http://vkontakte.ru/id45386171 1 1
+http://vkontakte.ru/id102057530 1 1
+http://vkontakte.ru/roma.romanovsky 1 1
+http://vkontakte.ru/id137823782 1 1
+http://vkontakte.ru/id12243045 1 1
+http://vkontakte.ru/id80769787 1 1
+http://vkontakte.ru/id67804147 1 1
+http://vkontakte.ru/shade89 1 1
+http://vkontakte.ru/app2370575_11756659 1 1
+http://vkontakte.ru/id134014242 1 1
+http://vkontakte.ru/id50296329 1 1
+http://vkontakte.ru/id7265532 1 1
+http://vkontakte.ru/roman_yr 1 1
+http://vkontakte.ru/audio 1 1
+http://vkontakte.ru/id131662925 1 1
+http://vkontakte.ru/id130937195 1 1
+http://vkontakte.ru/gameflint 1 1
+http://vkontakte.ru/app626127_14096010 1 1
+http://vkontakte.ru/id12874944 1 1
+http://vkontakte.ru/id76777490 1 1
+http://vkontakte.ru/id137071122 1 1
+http://vkontakte.ru/id24039066 1 1
+http://vkontakte.ru/mossshart 1 1
+http://vkontakte.ru/looneyko 1 1
+http://vkontakte.ru/id25147618 1 1
+http://vkontakte.ru/id13565391 1 1
+http://vkontakte.ru/live_in_ua 1 1
+http://vkontakte.ru/id14952708 1 1
+http://www.parta.com.ua/ukr/prof_courses/view/405/ 1 1
+http://vkontakte.ru/id53150258 2 2
+http://vkontakte.ru/id136376301 1 1
+http://vkontakte.ru/id101592156 1 1
+http://vkontakte.ru/id132218275 1 1
+http://vkontakte.ru/id117871570 1 1
+http://vkontakte.ru/id92657417 1 1
+http://vkontakte.ru/fanatic_sport 1 1
+http://vkontakte.ru/id15732604 1 1
+http://vkontakte.ru/id84084883 1 1
+http://vkontakte.ru/id50099462 1 1
+http://vkontakte.ru/id22857779 1 1
+http://vkontakte.ru/id20496505 1 1
+http://vkontakte.ru/id39195441 1 1
+http://vkontakte.ru/rigel_misha 1 1
+http://vkontakte.ru/id141626384 1 1
+http://vkontakte.ru/id29626135 1 1
+http://www.parta.com.ua/prof_courses/view/405/ 1 1
+http://vkontakte.ru/id143122695 1 1
+http://vkontakte.ru/id86375608 1 1
+http://vkontakte.ru/aquaworld3d 1 1
+http://vkontakte.ru/id41514884 1 1
+http://vkontakte.ru/legend 1 1
+http://vkontakte.ru/id8950420 1 1
+http://vkontakte.ru/id39942935 1 1
+http://vkontakte.ru/id76760706 1 1
+http://vkontakte.ru/rj_royalsquad 1 1
+http://vkontakte.ru/id26376185 1 1
+http://vkontakte.ru/app1915263_30040765 1 1
+http://vkontakte.ru/id10552896 1 1
+http://vkontakte.ru/app1995682_1957057 1 1
+http://vkontakte.ru/akaro 1 1
+http://vkontakte.ru/app1979194_31194557 1 1
+http://vkontakte.ru/danjo 1 1
+http://vkontakte.ru/id7888451 1 1
+http://vkontakte.ru/id25204311 1 1
+http://kursoteka.com.ua/uk/courses/365 1 1
+http://vkontakte.ru/app1995682_26131341 1 1
+http://vkontakte.ru/id125943655 1 1
+http://vkontakte.ru/id9529557 1 1
+http://vkontakte.ru/id7224758 1 1
+http://vkontakte.ru/zosja_zzzz 1 1
+http://vkontakte.ru/goruchko 1 1
+http://vkontakte.ru/flirtomaniya 2 2
+http://vkontakte.ru/id123407785 1 1
+http://vkontakte.ru/app2164459_23159002 1 1
+http://vkontakte.ru/dobermanko 1 1
+http://vkontakte.ru/sirkiv 1 1
+http://vkontakte.ru/id11592350 1 1
+http://vkontakte.ru/emily_malets 1 1
+http://vkontakte.ru/id79137229 1 1
+http://vkontakte.ru/id22655355 1 1
+http://vkontakte.ru/album33689612_146859951 1 1
+http://vkontakte.ru/id40674408 1 1
+http://vkontakte.ru/maxlviv 1 1
+http://vkontakte.ru/id5700513 1 1
+http://vkontakte.ru/anar4uk 1 1
+http://vkontakte.ru/brutalmenclub 1 1
+http://vkontakte.ru/id59906593 2 2
+http://vkontakte.ru/hugo123 1 1
+http://vkontakte.ru/id12202751 1 1
+http://vkontakte.ru/app2181108_79642963 1 1
+http://vkontakte.ru/settings 2 2
+http://vkontakte.ru/id11916060 1 1
+http://vkontakte.ru/lndgame 1 1
+http://vkontakte.ru/id32958428 1 1
+http://vkontakte.ru/id135281166 1 1
+http://vkontakte.ru/darynko 1 1
+http://vkontakte.ru/app2040768_13626554 1 1
+http://vkontakte.ru/id32119286 1 1
+http://vkontakte.ru/app2181108_23555565 1 1
+http://vkontakte.ru/app2164459_126942600 1 1
+http://vkontakte.ru/id46290001 1 1
+http://vkontakte.ru/id119938479 1 1
+http://vkontakte.ru/id73452552 1 1
+http://vkontakte.ru/igorok_mj 1 1
+http://vkontakte.ru/event32215483 1 1
+http://vkontakte.ru/mr_ozz 1 1
+http://vkontakte.ru/id137718114 1 1
+http://vk.com/im 1 1
+http://vkontakte.ru/garenauser 1 1
+http://yandex.ua/yandsearch 1 1
+http://vkontakte.ru/v3t3ran 1 1
+http://vkontakte.ru/nakonechny_taras 1 1
+http://vkontakte.ru/feroxd 1 1
+http://vkontakte.ru/club20536705 1 1
+http://vkontakte.ru/id36339991 1 1
+http://vkontakte.ru/jyul4uk 3 3
+http://vkontakte.ru/id23848695 1 1
+http://vkontakte.ru/id151094974 1 1
+http://vkontakte.ru/id40616948 1 1
+http://vkontakte.ru/id89693561 1 1
+http://vkontakte.ru/app1841820_57097437 1 1
+http://vkontakte.ru/pmi33 1 1
+http://vkontakte.ru/GoneFishing 1 1
+http://vkontakte.ru/id49325976 1 1
+http://vkontakte.ru/id6110000 1 1
+http://vkontakte.ru/eldaeron 1 1
+http://vkontakte.ru/app2164459_38549058 2 2
+http://vkontakte.ru/id38193236 1 1
+http://vkontakte.ru/id68225228 1 1
+http://vkontakte.ru/id11994293 1 1
+http://vkontakte.ru/id6151869 1 1
+http://vkontakte.ru/id32975808 2 2
+http://vkontakte.ru/app2164459_11717800 1 1
+http://vkontakte.ru/id22399237 1 1
+http://vkontakte.ru/app2257829_9123002 1 1
+http://vkontakte.ru/id76213965 1 1
+http://vkontakte.ru/id72242072 1 1
+http://vkontakte.ru/id31973188 1 1
+http://vkontakte.ru/maklaos 1 1
+http://vkontakte.ru/id20777127 1 1
+http://vkontakte.ru/app1858070_16538267 2 2
+http://vkontakte.ru/id58689242 2 2
+http://vkontakte.ru/krollko 1 1
+http://vkontakte.ru/app2146457_152985321 1 1
+http://vkontakte.ru/liliia_kushnir 1 1
+http://vkontakte.ru/id22092543 1 1
+http://vkontakte.ru/iosonointerista 1 1
+http://vkontakte.ru/id45025695 1 1
+http://vkontakte.ru/somechill 1 1
+http://vkontakte.ru/app2296756_105329804 1 1
+http://vkontakte.ru/xaker0k 1 1
+http://vkontakte.ru/pyadyk 1 1
+http://vkontakte.ru/id21086108 1 1
+http://vkontakte.ru/vovamelnyk 1 1
+http://vkontakte.ru/id17410625 1 1
+http://vkontakte.ru/id14831817 1 1
+http://vkontakte.ru/grammar_lab 1 1
+http://vkontakte.ru/playzonk 1 1
+http://vkontakte.ru/id12459679 1 1
+http://vkontakte.ru/freestyleandgrecoromanwrestling1 1 1
+http://vkontakte.ru/id9554412 1 1
+http://vkontakte.ru/app2014593 1 1
+http://vkontakte.ru/id117020348 1 1
+http://vkontakte.ru/lviv_ua 1 1
+http://vkontakte.ru/app626127_36882224 1 1
+http://vkontakte.ru/id40786514 1 1
+http://vkontakte.ru/bloody_mayor 1 1
+http://vkontakte.ru/app1834533_20528056 1 1
+http://vkontakte.ru/id37873485 1 1
+http://vkontakte.ru/app2306756_117783184 1 1
+http://vkontakte.ru/bouncer 1 1
+http://vkontakte.ru/id11133542 1 1
+http://vkontakte.ru/id11160531 1 1
+http://vkontakte.ru/app1995682_18074605 1 1
+http://vkontakte.ru/id111247559 1 1
+http://vkontakte.ru/id2293685 1 1
+http://vkontakte.ru/app1834533_42532895 1 1
+http://vkontakte.ru/app1699855_140491164 1 1
+http://vkontakte.ru/ru_tso 1 1
+http://vkontakte.ru/id92778075 1 1
+http://vkontakte.ru/app612925_62598211 2 2
+http://vkontakte.ru/golovalomka 1 1
+http://vkontakte.ru/app2146457_134896920 1 1
+http://vkontakte.ru/id19759059 1 1
+http://vkontakte.ru/id14064844 1 1
+http://vkontakte.ru/id132938983 1 1
+http://vkontakte.ru/irusik_andriiv 1 1
+http://vkontakte.ru/app1834533_55254358 1 1
+http://vkontakte.ru/id9130346 1 1
+http://vkontakte.ru/id6049147 1 1
+http://vkontakte.ru/marjano4ka888 1 1
+http://vkontakte.ru/iamcos 1 1
+http://vkontakte.ru/app676982_60361234 1 1
+http://vkontakte.ru/id11326790 1 1
+http://vkontakte.ru/id64350267 1 1
+http://vkontakte.ru/id8917692 1 1
+http://vkontakte.ru/app2341625_20474675 1 1
+http://vkontakte.ru/app1699855_114686468 1 1
+http://vkontakte.ru/id13044608 1 1
+http://vkontakte.ru/id42186335 1 1
+http://vkontakte.ru/epocalips 1 1
+http://vkontakte.ru/id48572647 1 1
+http://vkontakte.ru/sexylenka 1 1
+http://vkontakte.ru/id6717391 1 1
+http://vkontakte.ru/modnicy 1 1
+http://vkontakte.ru/oookli 1 1
+http://vkontakte.ru/id12701914 1 1
+http://vkontakte.ru/pan_producer 1 1
+http://vkontakte.ru/app1808503_136006689 1 1
+http://vkontakte.ru/app1979194_77682751 1 1
+http://vkontakte.ru/hrytsyk 1 1
+http://vkontakte.ru/id15770764 1 1
+http://vkontakte.ru/id85501092 1 1
+http://vkontakte.ru/app2296756_8830040 1 1
+http://vkontakte.ru/id11806459 1 1
+http://www.jobs.ua/ukr/qualification/405/ 2 2
+http://vkontakte.ru/albums11929185 1 1
+http://vkontakte.ru/id59391754 1 1
+http://vkontakte.ru/app1834533_83123896 1 1
+http://vkontakte.ru/id12266249 1 1
+http://vkontakte.ru/id126525068 1 1
+http://vkontakte.ru/app2462_27417402 1 1
+http://vkontakte.ru/photo139827173_269264045 1 1
+http://vkontakte.ru/app1979194_134187120 1 1
+http://vkontakte.ru/i_love_electro_dance_and_house 1 1
+http://vkontakte.ru/app1979972_132471787 1 1
+http://vkontakte.ru/id97490447 1 1
+http://vkontakte.ru/v5inf 1 1
+http://vkontakte.ru/app1995682_7340672 1 1
+http://vkontakte.ru/app626127_8130865 1 1
+http://vkontakte.ru/id18744615 1 1
+http://vkontakte.ru/RingKings 1 1
+http://vkontakte.ru/id8045925 1 1
+http://vkontakte.ru/id21145641 1 1
+http://vkontakte.ru/id89786006 1 1
+http://vkontakte.ru/app1991049_25828353 1 1
+http://vkontakte.ru/za4o_t 1 1
+http://vkontakte.ru/vk_ukr 1 1
+http://vkontakte.ru/id11765948 1 1
+http://vkontakte.ru/id54670448 1 1
+http://vkontakte.ru/id107297084 1 1
+http://vkontakte.ru/app2296756_85842795 1 1
+http://vkontakte.ru/devil_may_cry_4_yura 1 1
+http://vkontakte.ru/id5563477 1 1
+http://vkontakte.ru/app1844622_13657496 1 1
+http://vkontakte.ru/id16163719 1 1
+http://vkontakte.ru/giftofgods 1 1
+http://vkontakte.ru/app1979194_16599658 1 1
+http://vkontakte.ru/id140565173 1 1
+http://vkontakte.ru/id12076354 1 1
+http://vkontakte.ru/id65586462 1 1
+http://vkontakte.ru/id13226188 1 1
+http://vkontakte.ru/id140295916 3 3
+http://vkontakte.ru/id6477436 1 1
+http://vkontakte.ru/id21893974 1 1
+http://vkontakte.ru/id8181918 2 2
+http://vkontakte.ru/id13582870 1 1
+http://vkontakte.ru/id11879925 4 4
+http://vkontakte.ru/id129515443 1 1
+http://vkontakte.ru/id32316562 1 1
+http://vkontakte.ru/app2296756_142570192 1 1
+http://vkontakte.ru/app612925_71535767 1 1
+http://vkontakte.ru/id18378875 1 1
+http://vkontakte.ru/album23279671_143834710 1 1
+http://vkontakte.ru/app2472555 1 1
+http://vkontakte.ru/id23596074 1 1
+http://vkontakte.ru/albums139367050 1 1
+http://vkontakte.ru/boorak 1 1
+http://vkontakte.ru/app1817212_11895025 1 1
+http://vkontakte.ru/id117382598 1 1
+http://vkontakte.ru/id59989380 1 1
+http://vkontakte.ru/search 1 1
+http://vkontakte.ru/app2465522 1 1
+http://vkontakte.ru/id23880282 1 1
+http://vkontakte.ru/id83266757 1 1
+http://vkontakte.ru/id114319693 1 1
+http://vkontakte.ru/club27387669 1 1
+http://vkontakte.ru/id27353338 1 1
+http://vkontakte.ru/nekrasav4uk 1 1
+http://vkontakte.ru/id5333788 1 1
+http://vkontakte.ru/i_love_mihail 1 1
+http://vkontakte.ru/id137048575 1 1
+http://vkontakte.ru/id19566068 1 1
+http://vkontakte.ru/app1711141_137325886 1 1
+http://vkontakte.ru/fave 4 4
+http://vkontakte.ru/id13030216 1 1
+http://vkontakte.ru/lomakina_oksana 2 2
+http://vkontakte.ru/id147636975 1 1
+http://vkontakte.ru/app2313755_6413465 1 1
+http://vkontakte.ru/id66128364 1 1
+http://vkontakte.ru/killo_gram 1 1
+http://vkontakte.ru/unrealt2004 1 1
+http://vkontakte.ru/tag103374147 1 1
+http://vkontakte.ru/id85066699 1 1
+http://vkontakte.ru/id.makxim 2 2
+http://vkontakte.ru/id95320672 1 1
+http://vkontakte.ru/restore 1 1
+http://vkontakte.ru/app2146457_25285471 1 1
+http://vkontakte.ru/pro100griha 1 1
+http://vkontakte.ru/rebelli0us 1 1
+http://vkontakte.ru/id98306348 1 1
+http://vkontakte.ru/event32079103 1 1
+http://vkontakte.ru/id9056170 1 1
+http://vkontakte.ru/id13239729 1 1
+http://vkontakte.ru/wanderer_ua 1 1
+http://vkontakte.ru/id7102110 1 1
+http://vkontakte.ru/id9771235 1 1
+http://vkontakte.ru/id144156426 1 1
+http://vkontakte.ru/id23397874 1 1
+http://vkontakte.ru/id13249052 1 1
+http://vkontakte.ru/id16811435 1 1
+http://vkontakte.ru/events 1 1
+http://vkontakte.ru/app1660860_65774903 1 1
+http://vkontakte.ru/solja_s 1 1
+http://vkontakte.ru/id10162239 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 27
+%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82+%d0%b2%d1%96%d0%b4%d0%b5%d0%be%d0%ba%d0%b0%d1%80%d1%82+%d0%bb%d1%8c%d0%b2%d1%96%d0%b2 2
+%d0%ba%d1%83%d1%80%d1%81%d0%b8+%d1%96%d1%82%d0%b0%d0%bb%d1%96%d0%b9%d1%81%d1%8c%d0%ba%d0%be%d1%97+%d0%bc%d0%be%d0%b2%d0%b8 2
+%d0%ba%d1%83%d1%80%d1%81%d0%b8+%d0%b0%d0%bd%d0%b3%d0%bb%d1%96%d0%b9%d1%81%d1%8c%d0%ba%d0%be%d1%97+%d0%bc%d0%be%d0%b2%d0%b8+%d0%bb%d1%8c%d0%b2%d1%96%d0%b2 2
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+3d+max+%d0%bb%d1%8c%d0%b2%d0%be%d0%b2 2
+%d0%ba%d1%83%d1%80%d1%81%d0%b8+%d0%b2%d0%b0%d0%bb%d1%8e%d1%82+%d0%bd%d0%b0+%d0%b7%d0%b0%d0%b2%d1%82%d1%80%d0%b0 2
+%d1%80%d0%be%d0%b7%d1%80%d0%be%d0%b1%d0%ba%d0%b0+%d1%81%d0%b0%d0%b9%d1%82%d1%96%d0%b2+%d0%bb%d1%8c%d0%b2%d1%96%d0%b2 2
+%d0%bc%d0%b5%d0%bd%d0%b5%d0%b4%d0%b6%d0%b5%d1%80+%d0%b7+%d1%82%d1%83%d1%80%d0%b8%d0%b7%d0%bc%d1%83+%d0%bb%d1%8c%d0%b2%d1%96%d0%b2 1
+%d1%80%d0%be%d0%b7%d1%80%d0%be%d0%b1%d0%ba%d0%b0+%d1%81%d0%b0%d0%b9%d1%82%d1%96%d0%b2+%d1%86%d1%96%d0%bd%d0%b8 1
+%d0%b4%d1%96%d0%b0%d0%bb%d0%be%d0%b3%d1%96%d1%87%d0%bd%d0%b5+%d0%bc%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%bd%d1%8f+%d0%b0%d0%bd%d0%b3%d0%bb%d1%96%d0%b9%d1%81%d1%8c%d0%ba%d0%be%d1%97+%d0%bc%d0%be%d0%b2%d0%b8.+%d1%81%d1%82%d0%b0%d1%82%d1%82%d1%96 1
+%d0%ba%d1%83%d1%80%d1%81%d0%b8+3d+max+%d0%bb%d1%8c%d0%b2%d1%96%d0%b2 1
+%d1%88%d0%b0%d0%b3+%d0%bb%d1%8c%d0%b2%d0%be%d0%b2 1
+%d1%80%d0%be%d0%b7%d1%80%d0%be%d0%b1%d0%ba%d0%b0+%d0%b2%d0%b5%d0%b1-%d1%81%d0%b0%d0%b9%d1%82%d1%96%d0%b2+%d1%86%d1%96%d0%bd%d0%b8 1
+seo+sprint 1
+%d0%b5%d0%ba%d1%81%d0%ba%d1%83%d1%80%d1%81%d1%96%d1%97#pq=%d0%b5%d0%ba%d1%81%d0%ba%d1%83%d1%80%d1%81%d1%96%d1%97 1
+bkt.lviv.ua 1
+%d1%83%d0%bc%d0%be%d0%b2%d0%bd%d1%96+%d1%80%d0%b5%d1%87%d0%b5%d0%bd%d0%bd%d1%8f+%d0%b2+%d0%b0%d0%bd%d0%b3%d0%bb%d1%96%d0%b9%d1%81%d1%8c%d0%ba%d1%96%d0%b9+%d0%bc%d0%be%d0%b2%d1%96+%d0%bf%d1%80%d0%be+%d1%81%d1%96%d0%bc+%d1%8e 1
+%d0%ba%d0%be%d0%bc%d0%bf+%d1%8e%d1%82%d0%b5%d1%80%d0%bd%d1%96+%d0%ba%d1%83%d1%80%d1%81%d0%b8+%d1%83+%d0%bb%d1%8c%d0%b2%d0%be%d0%b2%d1%96 1
+%d0%ba%d1%83%d1%80%d1%81%d0%be%d0%b2%d1%96+%d1%80%d0%be%d0%b1%d0%be%d1%82%d0%b8+%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d1%83%d0%b2%d0%b0%d0%bd%d0%bd%d1%8f+%d1%81%d1%96 1
+%d1%83%d0%bc%d0%be%d0%b2%d0%bdi+%d1%80%d0%b5%d1%87%d0%b5%d0%bd%d0%bd%d1%8f+%d0%bf%d1%80%d0%be+%d1%81i%d0%bc%d1%8e 1
+%eb%b3%f2%ed%b3+%ea%f3%f0%f1%e8+%e7%e0+%ea%ee%f0%e4%ee%ed%ee%ec 1
+%d0%bc%d0%be%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%96+%d0%b4%d1%96%d1%94%d1%81%d0%bb%d0%be%d0%b2%d0%b0+%d0%b2+%d0%b0%d0%bd%d0%b3%d0%bb%d1%96%d0%b9%d1%81%d1%8c%d0%ba%d1%96%d0%b9+%d0%bc%d0%be%d0%b2%d1%96+%d0%b1%d1%83%d0%b4%d0%be%d0%b2%d0%b0 1
+%d0%bf%d0%b5%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%b4+%d0%bd%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d1%96%d0%b9%d1%81%d1%8c%d0%ba%d1%83+%d0%bc%d0%be%d0%b2%d1%83+%d0%bc%d1%96%d1%81%d1%8f%d1%86%d1%96+%d1%80%d0%be%d0%ba%d1%83 1
+%f9%ee+%f2%e0%ea%e5+%ec%ee%ed%f2%e0%e6+%e7%ee%e1%f0%e0%e6%e5%ed%ed%ff 1
+php+%d0%bb%d1%8c%d0%b2%d1%96%d0%b2+%d0%ba%d1%83%d1%80%d1%81%d0%b8 1
+%d0%ba%d1%83%d1%80%d1%81%d0%b8+%d0%b2%d0%b0%d0%bb%d1%8e%d1%82%d0%b8+%d1%83+%d0%bb%d1%8c%d0%b2%d0%be%d0%b2%d1%96+%d0%bd%d0%b0+17.11.201 1
+%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82+%d0%ba%d0%be%d0%bc%d0%bf%d1%8e%d1%82%d0%b5%d1%80%d1%96%d0%b2+%d0%bb%d1%8c%d0%b2%d1%96%d0%b2 1
+%d0%a0%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%ba%d1%83%d1%80%d1%81%d1%8b+3d+max+%d0%bf%d0%be%d0%b4%d0%be%d0%bb 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 70
+%d0%bb%d1%8c%d0%b2%d1%96%d0%b2 10
+%d0%ba%d1%83%d1%80%d1%81%d0%b8 10
+%d1%80%d0%be%d0%b7%d1%80%d0%be%d0%b1%d0%ba%d0%b0 4
+max 4
+%d0%bc%d0%be%d0%b2%d0%b8 4
+%d0%bd%d0%b0 4
+3d 4
+%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82 3
+%d0%ba%d1%83%d1%80%d1%81%d1%8b 3
+%d0%b0%d0%bd%d0%b3%d0%bb%d1%96%d0%b9%d1%81%d1%8c%d0%ba%d0%be%d1%97 3
+%d1%8e%d1%82%d0%b5%d1%80%d0%bd%d1%96 1
+%d0%b4%d1%96%d0%b0%d0%bb%d0%be%d0%b3%d1%96%d1%87%d0%bd%d0%b5 1
+%e7%ee%e1%f0%e0%e6%e5%ed%ed%ff 1
+%ea%ee%f0%e4%ee%ed%ee%ec 1
+%d0%bf%d0%b5%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%b4 1
+%d0%bf%d1%80%d0%be 2
+%d0%b5%d0%ba%d1%81%d0%ba%d1%83%d1%80%d1%81%d1%96%d1%97#pq=%d0%b5%d0%ba%d1%81%d0%ba%d1%83%d1%80%d1%81%d1%96%d1%97 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d1%96%d0%b9%d1%81%d1%8c%d0%ba%d1%96%d0%b9 2
+%d1%82%d1%83%d1%80%d0%b8%d0%b7%d0%bc%d1%83 1
+%d0%bb%d1%8c%d0%b2%d0%be%d0%b2%d1%96 2
+%d1%83 2
+%d0%ba%d0%be%d0%bc%d0%bf%d1%8e%d1%82%d0%b5%d1%80%d1%96%d0%b2 1
+%d1%81i%d0%bc%d1%8e 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d1%96%d0%b9%d1%81%d1%8c%d0%ba%d1%83 1
+%d1%81%d0%b0%d0%b9%d1%82%d1%96%d0%b2 3
+17.11.201 1
+%d0%b7%d0%b0%d0%b2%d1%82%d1%80%d0%b0 2
+%d1%80%d0%be%d0%ba%d1%83 1
+%d0%bf%d0%be%d0%b4%d0%be%d0%bb 1
+seo 1
+%f2%e0%ea%e5 1
+%d0%bc%d0%be%d0%b2%d1%83 1
+%d1%80%d0%b5%d1%87%d0%b5%d0%bd%d0%bd%d1%8f 2
+%e7%e0 1
+%f9%ee 1
+%d0%bc%d0%be%d0%b2%d0%b8. 1
+%d0%b1%d1%83%d0%b4%d0%be%d0%b2%d0%b0 1
+bkt.lviv.ua 1
+%d0%b2%d0%b0%d0%bb%d1%8e%d1%82%d0%b8 1
+%d0%bc%d0%b5%d0%bd%d0%b5%d0%b4%d0%b6%d0%b5%d1%80 1
+%d0%ba%d1%83%d1%80%d1%81%d0%be%d0%b2%d1%96 1
+%d0%bc%d0%be%d0%b2%d1%96 2
+%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d1%83%d0%b2%d0%b0%d0%bd%d0%bd%d1%8f 1
+%d1%81%d1%96%d0%bc 1
+%d0%bb%d1%8c%d0%b2%d0%be%d0%b2 3
+sprint 1
+php 1
+%ea%f3%f0%f1%e8 1
+%d0%b2%d0%b5%d0%b1-%d1%81%d0%b0%d0%b9%d1%82%d1%96%d0%b2 1
+%d0%ba%d0%be%d0%bc%d0%bf 1
+%d0%a0%d0%b0%d0%b1%d0%be%d1%82%d0%b0 1
+%d0%b4%d1%96%d1%94%d1%81%d0%bb%d0%be%d0%b2%d0%b0 1
+%d1%86%d1%96%d0%bd%d0%b8 2
+%d0%b7 1
+%d0%b2 2
+%d0%bc%d1%96%d1%81%d1%8f%d1%86%d1%96 1
+%d1%80%d0%be%d0%b1%d0%be%d1%82%d0%b8 1
+%d0%bc%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%bd%d1%8f 1
+%d0%b2%d1%96%d0%b4%d0%b5%d0%be%d0%ba%d0%b0%d1%80%d1%82 2
+%d1%8e 1
+%ec%ee%ed%f2%e0%e6 1
+%eb%b3%f2%ed%b3 1
+%d1%83%d0%bc%d0%be%d0%b2%d0%bd%d1%96 1
+%d1%81%d1%82%d0%b0%d1%82%d1%82%d1%96 1
+%d1%96%d1%82%d0%b0%d0%bb%d1%96%d0%b9%d1%81%d1%8c%d0%ba%d0%be%d1%97 2
+%d0%b2%d0%b0%d0%bb%d1%8e%d1%82 2
+%d1%81%d1%96 1
+%d0%bc%d0%be%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%96 1
+%d1%83%d0%bc%d0%be%d0%b2%d0%bdi 1
+%d1%88%d0%b0%d0%b3 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 6 1876
+503 186 68868
+206 14 714115
+303 22 8692
+404 66 26773
+301 4 1863
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 14
+/sitemap.xml 1 -
+/10.html 3 http://vkontakte.ru/club14919796
+/contact-us.html 1 -
+/wp-admin 1 -
+/images/stories/%20copy2.png 2 http://bkt.lviv.ua/index.php
+/6.html 1 -
+/components/com_joomlawatch/css/images/arrow-right.gif 5 http://bkt.lviv.ua/administrator/index2.php
+/images/stories/%20copy22.png 42 http://bkt.lviv.ua/index.php
+//templates/bkt/template_thumbnail.png 1 http://bkt.lviv.ua/administrator/index.php
+/administrator/F0F0F0 1 http://bkt.lviv.ua/administrator/index.php
+/components/com_timereturns/models/timereturns.php 1 -
+/components/com_joomlawatch/css/images/arrow-left.gif 5 http://bkt.lviv.ua/administrator/index2.php
+/admin 1 -
+/posl.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 634
+194.44.221.46 792 1557 2909941 20111117164038
+194.44.213.186 48 344 4775962 20111117203459
+93.72.15.51 39 285 2920114 20111117192904
+178.210.146.88 28 43 400841 20111117020100
+178.136.241.131 21 144 2054354 20111117172115
+217.20.184.233 20 80 1596221 20111117130037
+178.95.70.182 18 90 1447195 20111117113034
+195.22.112.81 16 450 4338579 20111117165117
+178.95.34.125 15 140 1622081 20111117074954
+194.44.220.146 14 127 2798438 20111117095912
+195.72.144.71 1 46 574308 20111117021303
+178.95.63.203 2 50 589069 20111117082951
+178.95.17.52 1 46 568568 20111117091014
+95.69.192.147 5 55 596556 20111117075305
+195.160.233.10 1 45 574013 20111117095505
+178.95.62.179 3 3 22557 20111117125311
+77.123.185.241 2 47 582078 20111117080624
+94.153.240.170 8 66 702982 20111117150001
+82.207.109.251 2 48 580927 20111117091929
+178.95.46.167 1 45 574013 20111117020806
+194.44.120.97 6 64 653878 20111117093724
+94.231.64.154 2 55 601059 20111117091147
+217.76.201.194 6 67 1473613 20111117164446
+176.14.29.71 0 1 30288 
+89.105.248.201 7 64 687022 20111117100419
+89.209.83.23 2 45 1161836 20111117230124
+194.44.121.181 2 47 582078 20111117014336
+95.133.72.124 2 62 2634267 20111117072846
+109.201.225.81 1 53 591083 20111117100942
+91.124.53.43 1 13 341551 20111117070433
+94.231.74.26 1 46 574308 20111117080009
+89.105.249.207 3 50 612793 20111117092344
+178.95.25.121 1 46 574859 20111117084539
+46.202.151.53 1 13 341551 20111117022347
+82.207.125.244 3 53 618128 20111117084640
+188.230.3.55 1 46 568568 20111117024018
+178.212.102.75 2 93 1143140 20111117072619
+188.163.68.245 4 61 1936307 20111117091107
+188.230.72.68 2 89 582078 20111117075751
+91.124.81.7 1 45 507876 20111117015751
+91.196.52.100 2 54 595080 20111117063501
+77.87.154.18 4 56 630806 20111117064416
+77.52.246.225 3 59 752832 20111117034325
+91.124.178.86 1 21 462359 20111117074212
+178.210.135.41 8 73 1126795 20111117100724
+188.191.47.204 6 58 613628 20111117190535
+188.163.65.157 5 250 652511 20111117080217
+93.178.246.74 4 51 613102 20111117103753
+188.163.66.75 4 53 622034 20111117104028
+77.123.170.90 1 1 9129 20111117143056
+193.93.217.196 2 47 582078 20111117082311
+193.93.218.48 1 45 568273 20111117021932
+194.44.120.248 1 45 568273 20111117023710
+194.44.216.254 7 75 1209905 20111117020356
+188.163.65.14 1 46 574308 20111117091347
+178.210.134.150 1 53 687058 20111117015951
+178.212.247.7 1 50 574291 20111117014747
+188.230.53.150 1 52 605115 20111117083454
+188.230.26.15 1 45 567988 20111117075212
+188.230.70.168 2 52 590417 20111117091630
+194.44.134.226 1 59 623085 20111117081400
+46.202.177.77 1 21 366218 20111117172114
+74.125.78.83 0 5 38773 
+91.196.55.82 2 49 595911 20111117093140
+213.130.17.129 2 48 582342 20111117091720
+178.95.27.49 2 47 576043 20111117020202
+178.212.101.65 1 40 535225 20111117203716
+178.95.81.127 1 51 581001 20111117022256
+77.123.162.19 3 53 637058 20111117082537
+188.230.11.134 1 45 568273 20111117094522
+82.207.45.19 2 91 575654 20111117100521
+188.230.44.122 7 58 662898 20111117201228
+91.124.105.194 1 48 570992 20111117182929
+46.202.191.67 1 1 7173 20111117080748
+77.123.166.199 1 47 614743 20111117064028
+95.69.176.222 8 80 1004272 20111117201659
+194.44.80.110 3 54 608896 20111117102610
+178.95.182.39 1 45 568273 20111117075059
+95.69.195.24 2 49 596036 20111117083235
+91.124.35.23 1 47 574572 20111117090803
+95.215.159.221 1 45 568273 20111117091723
+188.230.71.22 2 14 352549 20111117151309
+94.178.92.200 1 45 568254 20111117101435
+194.44.141.188 1 45 572102 20111117205909
+178.95.71.104 5 15 10303 20111117235046
+178.137.160.82 1 46 574308 20111117093036
+195.22.112.25 1 46 574308 20111117093255
+178.95.125.16 2 2 14301 20111117111552
+31.40.232.80 1 50 584124 20111117083623
+178.212.247.70 1 45 568273 20111117071302
+95.28.101.48 0 1 7667 
+178.95.159.17 1 47 574572 20111117095005
+188.163.66.46 2 47 582078 20111117021710
+91.124.125.41 4 66 1511674 20111117092251
+91.225.4.1 1 7 169480 20111117061022
+188.163.232.130 5 100 1198320 20111117110815
+178.137.16.129 1 46 574308 20111117095208
+109.87.47.117 1 45 574013 20111117093326
+46.202.43.186 1 47 568863 20111117014701
+78.154.174.93 1 45 575597 20111117180233
+91.222.34.26 1 18 234904 20111117020319
+93.178.246.3 3 50 600307 20111117093618
+178.95.83.5 1 48 575575 20111117093341
+195.211.87.191 1 58 642835 20111117083050
+194.44.76.56 1 3 98561 20111117095915
+91.124.237.111 1 46 574308 20111117074152
+188.230.57.243 1 46 568568 20111117095934
+77.120.34.182 1 19 391876 20111117141745
+66.102.12.87 0 2 3272 
+93.80.70.162 0 2 291 
+94.178.138.222 1 51 606452 20111117101308
+74.125.78.80 0 1 1185 
+93.178.213.176 4 54 1298920 20111117233526
+188.230.59.104 1 45 574013 20111117031712
+188.230.52.164 7 112 690509 20111117083319
+178.212.247.78 3 53 620794 20111117080501
+66.102.12.90 0 1 14674 
+46.203.209.135 1 47 575721 20111117144134
+178.214.179.142 2 62 1238909 20111117192248
+91.124.190.98 1 48 573586 20111117180357
+91.124.71.17 2 9 216151 20111117183047
+195.135.197.1 1 45 568273 20111117091329
+91.124.203.221 2 48 582342 20111117084032
+109.201.227.206 5 57 1328196 20111117080644
+188.230.0.225 1 47 574572 20111117020728
+46.202.186.6 1 47 574572 20111117094427
+194.44.122.139 1 11 199264 20111117090922
+194.44.198.45 2 48 588734 20111117093745
+94.178.62.118 1 45 574013 20111117094825
+213.174.0.79 2 49 576602 20111117085458
+194.44.136.214 1 47 568832 20111117085310
+109.201.230.101 6 54 624247 20111117093614
+188.230.8.243 5 54 639669 20111117165526
+178.212.97.105 1 47 568832 20111117025113
+91.196.55.122 1 46 568568 20111117095206
+109.201.225.118 1 47 568832 20111117050625
+109.201.230.241 1 52 598856 20111117043343
+74.125.78.86 0 1 857 
+89.105.226.25 3 53 603034 20111117092743
+109.201.229.226 1 45 568273 20111117091922
+93.80.115.191 0 1 417 
+178.95.42.210 1 44 571245 20111117184213
+178.95.145.28 1 46 568283 20111117085801
+95.27.126.37 1 13 344162 20111117163359
+64.184.179.82 1 1 7251 20111117031023
+194.44.24.207 1 45 568273 20111117015845
+188.230.11.182 1 45 574013 20111117085040
+95.221.74.96 0 1 474 
+178.95.91.15 1 45 574013 20111117080443
+178.210.154.185 2 47 576338 20111117012011
+95.111.244.22 1 47 574572 20111117080707
+82.207.92.82 3 49 589506 20111117090519
+95.69.210.17 3 49 588183 20111117071818
+213.174.0.122 4 50 596720 20111117145040
+77.87.157.200 1 53 590278 20111117141607
+194.44.15.180 1 9 206498 20111117073158
+91.196.54.13 2 55 633152 20111117101226
+178.212.97.160 1 21 466188 20111117195258
+77.123.170.252 1 45 568273 20111117015525
+195.234.75.138 6 58 618342 20111117091642
+66.102.12.95 0 2 11877 
+178.210.155.91 7 50 46042 20111117125700
+188.163.72.172 2 52 588060 20111117082857
+74.125.78.82 0 1 20093 
+109.201.233.11 3 54 1891662 20111117123752
+195.22.112.82 9 209 3058544 20111117224355
+94.188.55.233 3 49 620340 20111117013155
+188.230.29.86 3 50 595451 20111117012608
+178.210.137.236 1 23 511314 20111117082229
+94.178.71.10 1 45 574013 20111117081954
+46.202.156.206 1 45 572102 20111117183642
+188.163.108.67 1 46 568283 20111117095057
+188.230.8.176 1 49 583194 20111117100720
+109.201.235.23 1 46 574576 20111117110147
+194.44.22.188 4 49 591037 20111117102924
+93.178.255.129 4 55 624318 20111117095217
+130.185.49.176 2 48 576338 20111117085249
+95.133.220.178 4 55 636964 20111117022620
+94.231.67.62 1 45 574281 20111117110043
+92.113.42.250 1 45 574013 20111117084948
+178.137.16.113 1 45 567988 20111117092902
+95.26.165.197 0 1 222 
+109.251.29.13 4 51 602440 20111117075546
+178.212.247.103 2 48 580413 20111117080316
+109.251.17.160 7 55 638439 20111117095136
+194.44.216.26 1 46 574308 20111117095828
+46.202.185.75 1 45 574013 20111117025545
+66.102.12.88 0 1 1667 
+178.95.99.161 3 60 632713 20111117081435
+194.44.136.202 1 46 572397 20111117231053
+77.123.173.121 6 58 660069 20111117182454
+94.179.211.134 1 49 569422 20111117095132
+77.120.47.24 1 45 593567 20111117094950
+178.210.145.244 2 47 582078 20111117020338
+109.251.73.185 1 46 574308 20111117073411
+194.44.24.110 1 3 8681 20111117121824
+92.113.22.0 2 48 582342 20111117095139
+188.230.96.45 4 51 611993 20111117101607
+95.69.203.123 1 43 571024 20111117084031
+176.8.89.144 11 81 1437933 20111117103250
+193.93.217.155 1 50 603405 20111117092927
+95.69.214.12 1 47 574572 20111117031021
+91.210.22.237 2 48 582078 20111117071843
+178.95.75.67 3 57 595779 20111117075434
+188.191.47.246 1 13 342195 20111117120253
+176.195.83.17 0 1 8154 
+176.8.90.165 1 45 568273 20111117091734
+195.22.112.75 2 63 955709 20111117162645
+178.136.242.186 4 54 623591 20111117090330
+46.247.137.121 1 54 597310 20111117094118
+178.210.146.51 1 46 574308 20111117093514
+178.210.145.189 6 63 683060 20111117085220
+77.123.170.43 1 45 568273 20111117004025
+188.163.66.134 5 117 2067258 20111117074527
+91.210.23.30 2 54 596408 20111117075523
+188.230.12.158 5 55 1305778 20111117224851
+178.95.113.151 2 48 575175 20111117095513
+109.251.27.66 1 49 603527 20111117075158
+95.220.190.210 0 1 1466 
+77.87.157.116 1 21 362471 20111117085430
+91.124.206.60 2 47 582078 20111117022012
+91.196.55.221 1 55 606382 20111117022638
+91.214.35.30 1 55 686818 20111117154216
+46.202.37.25 1 53 586719 20111117092725
+194.44.220.194 1 46 574308 20111117091126
+91.124.31.241 1 47 568832 20111117014926
+91.196.55.5 6 57 1343406 20111117014759
+91.196.53.99 5 52 623396 20111117020312
+188.230.61.165 1 53 575111 20111117071419
+194.44.192.225 1 46 574308 20111117095446
+46.247.210.104 1 47 574572 20111117082010
+95.69.209.43 3 49 588183 20111117082423
+194.44.185.133 2 46 582316 20111117104524
+91.196.52.178 2 53 593539 20111117073616
+188.230.62.96 1 49 603527 20111117014531
+77.52.14.168 1 52 580378 20111117084444
+95.220.251.135 0 1 476 
+178.95.127.16 6 20 1241875 20111117205741
+91.124.29.158 1 46 568568 20111117094100
+91.220.61.2 1 46 579627 20111117124431
+178.210.152.75 1 21 467651 20111117211742
+91.124.86.202 1 47 574572 20111117062512
+178.95.20.116 2 52 615807 20111117075228
+188.163.66.199 2 47 576338 20111117080449
+85.180.221.76 3 51 595728 20111117023521
+188.163.67.52 1 49 601363 20111117083548
+178.95.71.207 2 51 591453 20111117092047
+194.44.139.24 3 64 742675 20111117015101
+94.179.171.78 1 54 701327 20111117172703
+188.230.0.254 3 56 630716 20111117081038
+74.125.78.93 0 1 468 
+109.251.20.252 1 49 581510 20111117083249
+91.124.167.55 1 45 568273 20111117014153
+188.230.61.111 5 55 601502 20111117051315
+46.202.79.29 1 28 490878 20111117212652
+178.212.99.165 2 49 595116 20111117023436
+188.191.68.6 1 46 575457 20111117175805
+95.134.110.90 1 45 568273 20111117084033
+178.137.164.206 2 54 632302 20111117095044
+194.44.220.58 2 49 594672 20111117095748
+46.202.197.41 2 48 582342 20111117071609
+188.163.78.226 1 41 569752 20111117231555
+46.202.75.63 1 1 9784 20111117211116
+178.95.50.143 2 47 582078 20111117034756
+95.69.205.108 5 52 596003 20111117021659
+95.69.196.239 1 52 583907 20111117092731
+91.124.11.191 1 46 574308 20111117081925
+91.196.54.32 6 64 733030 20111117085536
+88.155.60.227 1 52 612638 20111117090703
+74.125.78.88 0 5 123318 
+188.163.105.194 1 47 579623 20111117013644
+188.230.28.75 1 46 568568 20111117095157
+91.225.203.17 3 55 890203 20111117225948
+178.95.194.106 4 56 623493 20111117181423
+66.102.12.93 0 2 1242 
+77.123.183.124 1 45 574013 20111117093106
+109.251.20.166 1 52 583114 20111117043925
+188.230.29.197 2 48 582078 20111117094150
+188.163.69.248 1 46 574308 20111117081637
+178.95.209.49 4 50 600160 20111117013402
+193.93.216.78 4 52 629708 20111117101132
+77.52.111.55 1 7 250991 20111117155916
+194.44.216.210 5 56 610921 20111117155011
+91.225.201.93 1 45 574013 20111117084015
+178.212.247.63 2 49 576602 20111117084939
+95.133.44.49 5 53 1318558 20111117100416
+194.44.136.250 5 147 2408921 20111117121839
+95.69.210.246 3 49 1191587 20111117011729
+194.44.250.15 2 48 1184861 20111117155658
+178.137.18.151 9 80 3653297 20111117035933
+77.121.217.171 1 46 575457 20111117160107
+91.196.54.91 1 45 574013 20111117021444
+46.201.151.232 2 56 701622 20111117095413
+109.251.74.212 1 49 577182 20111117100525
+178.95.58.0 2 91 1148321 20111117085534
+178.137.17.206 4 52 622718 20111117084836
+178.95.98.4 1 40 569069 20111117100440
+91.124.43.187 1 45 574281 20111117104214
+91.196.55.97 1 50 575406 20111117161327
+188.191.47.216 1 8 97634 20111117095805
+178.137.16.185 1 39 566056 20111117222721
+91.200.114.82 2 61 893683 20111117082345
+176.8.4.246 4 56 643078 20111117092812
+91.196.52.235 1 54 610156 20111117093206
+94.180.185.174 0 1 2767 
+77.123.183.110 1 48 587629 20111117033958
+195.42.130.247 3 138 1717748 20111117181549
+194.44.221.54 7 72 1800815 20111117095621
+94.231.65.73 3 53 604003 20111117092354
+178.95.33.22 4 55 636293 20111117081841
+188.230.8.58 1 65 663469 20111117075514
+94.178.104.111 2 50 606952 20111117093536
+94.231.71.198 6 91 1153952 20111117192330
+109.251.95.172 1 52 584575 20111117095344
+77.123.187.24 1 53 613476 20111117112510
+178.95.179.244 1 54 582445 20111117084314
+90.156.196.24 1 1 36524 20111117074633
+91.196.53.253 1 51 587280 20111117015804
+178.95.186.65 1 21 431927 20111117180406
+188.163.69.30 2 47 581783 20111117092715
+91.124.35.179 4 56 659292 20111117024906
+188.230.87.59 1 45 574281 20111117105750
+188.230.14.30 1 45 574013 20111117084609
+93.178.241.79 2 49 1185156 20111117162453
+188.230.52.214 1 49 572159 20111117083340
+46.185.46.82 1 47 568832 20111117033729
+178.95.70.43 1 3 44261 20111117075802
+46.202.186.83 1 46 572397 20111117230500
+178.95.48.66 4 52 611419 20111117103940
+89.162.229.130 6 98 1794611 20111117143547
+109.167.100.59 1 3 67934 20111117210349
+95.69.208.145 3 49 590113 20111117234404
+188.163.107.214 2 48 582078 20111117032714
+194.44.158.133 1 23 516365 20111117012430
+194.44.125.202 1 45 567988 20111117081718
+66.102.12.94 0 3 2422 
+188.163.64.78 1 46 568568 20111117060842
+74.125.78.84 0 2 84599 
+89.105.239.209 1 50 584513 20111117082229
+74.125.78.91 0 1 860 
+178.212.247.10 1 51 590294 20111117020513
+31.40.212.106 2 48 582611 20111117103955
+194.44.247.218 13 249 3042474 20111117094802
+188.230.45.70 4 51 603187 20111117102216
+195.72.145.99 1 46 568568 20111117084111
+178.210.142.88 1 45 572342 20111117095141
+188.230.55.71 1 45 568273 20111117072741
+66.102.12.83 1 3 9934 20111117100654
+95.133.63.198 1 45 568273 20111117090054
+178.95.129.219 7 61 644708 20111117160523
+188.163.106.119 2 48 582342 20111117023850
+95.69.255.21 1 53 577169 20111117084237
+178.137.19.96 1 46 574308 20111117095146
+178.137.19.3 1 45 568273 20111117015619
+194.44.215.154 1 54 611779 20111117025403
+89.162.134.202 2 49 583977 20111117085529
+188.163.68.122 7 121 2170477 20111117223619
+91.225.201.54 1 46 574308 20111117091834
+194.44.190.237 1 46 568838 20111117101220
+178.210.152.77 1 45 568273 20111117100236
+109.201.227.41 2 50 597803 20111117045003
+46.4.121.230 1 1 6988 20111117085329
+195.211.85.15 1 47 568832 20111117014632
+92.49.238.198 1 54 613793 20111117025514
+178.95.152.158 1 1 9784 20111117173716
+91.124.21.176 2 51 592171 20111117082646
+46.185.59.49 1 47 568832 20111117022654
+188.230.24.65 1 46 574308 20111117091153
+62.221.53.166 2 49 589029 20111117094428
+95.220.163.217 0 1 1083 
+194.44.122.234 5 57 717025 20111117125257
+194.44.134.2 1 61 657243 20111117083058
+91.196.54.23 1 45 574013 20111117095113
+195.42.130.221 1 57 588870 20111117064625
+94.231.65.54 6 56 637794 20111117225541
+109.201.229.220 2 49 652917 20111117085426
+178.95.101.4 4 60 1074068 20111117030339
+95.69.202.177 1 7 272312 20111117084552
+85.223.156.86 1 45 568273 20111117093445
+194.44.213.118 3 59 1055780 20111117223114
+194.44.136.82 1 46 574308 20111117094323
+194.44.215.70 5 61 695811 20111117091558
+194.44.190.221 1 45 568273 20111117095053
+109.201.238.217 7 55 637723 20111117101000
+109.201.227.36 1 50 570152 20111117100412
+178.212.97.251 2 54 605762 20111117100955
+89.105.248.67 3 60 706997 20111117084313
+178.95.65.189 1 45 568273 20111117085625
+188.230.70.6 1 47 568832 20111117093554
+178.210.129.129 1 45 568273 20111117070207
+74.125.78.95 0 1 24632 
+188.191.47.209 1 51 609784 20111117085007
+194.44.136.34 2 49 581736 20111117100030
+188.230.81.228 4 54 619160 20111117084120
+46.202.177.174 1 45 568273 20111117014930
+74.125.78.85 0 2 41238 
+95.69.211.3 1 54 582232 20111117093740
+95.69.193.116 7 61 625109 20111117024411
+178.95.201.166 1 11 337641 20111117185225
+193.84.22.11 2 47 582078 20111117093405
+95.135.161.250 1 47 574572 20111117070606
+91.196.54.96 7 59 669907 20111117092545
+188.230.24.26 1 37 534612 20111117214523
+77.52.8.95 2 48 1184861 20111117121858
+178.95.157.1 4 66 3115373 20111117095606
+46.202.194.10 2 48 580432 20111117155128
+178.95.29.194 1 46 574308 20111117014222
+89.105.247.70 1 53 612933 20111117100741
+95.24.36.212 0 1 4605 
+188.163.76.114 1 45 574013 20111117031553
+178.210.151.95 1 7 219668 20111117090139
+178.210.129.146 2 55 638708 20111117023805
+188.230.71.181 1 55 602951 20111117104657
+188.163.69.241 2 46 581863 20111117100502
+78.154.174.226 1 46 572397 20111117184242
+31.40.212.197 2 48 582342 20111117041143
+91.225.142.10 3 52 615500 20111117115737
+178.212.102.67 3 99 1219245 20111117151047
+91.196.53.122 3 48 583333 20111117073309
+77.123.165.100 1 45 574013 20111117063031
+95.215.159.43 1 45 568273 20111117083740
+178.137.17.138 1 11 126567 20111117090355
+93.178.245.217 2 48 576338 20111117090626
+94.231.68.216 2 47 582078 20111117093402
+91.124.75.137 1 52 606629 20111117093928
+207.161.105.42 3 47 587624 20111117085227
+109.251.107.176 1 52 586405 20111117075017
+62.64.64.162 1 47 568832 20111117100331
+91.124.33.116 1 46 612293 20111117030113
+88.154.10.77 1 46 574308 20111117093622
+92.113.127.158 1 53 616209 20111117174825
+109.251.26.245 1 45 568273 20111117022043
+195.42.130.217 3 51 622103 20111117020602
+109.201.226.159 1 46 568568 20111117073731
+176.8.89.40 10 67 1375220 20111117021612
+178.95.51.131 1 11 125525 20111117100621
+188.191.47.233 1 43 561534 20111117220659
+188.230.83.166 1 45 574013 20111117082505
+195.47.212.20 3 51 600275 20111117095207
+178.95.149.202 1 46 574308 20111117093501
+178.210.133.222 1 32 520275 20111117105948
+194.44.236.32 5 154 1812199 20111117025450
+176.14.0.166 0 2 4840 
+95.111.210.67 2 46 580137 20111117163906
+178.95.242.189 1 1 6688 20111117193920
+188.230.24.164 1 51 595599 20111117013819
+188.230.70.117 1 46 572397 20111117154750
+80.254.23.165 2 47 589289 20111117125828
+178.212.247.4 1 45 574013 20111117093911
+109.254.49.8 4 55 1299144 20111117225445
+188.230.72.197 2 53 589134 20111117092339
+188.163.53.208 2 48 576338 20111117040300
+178.95.235.11 2 53 598328 20111117021705
+95.215.156.190 1 46 568568 20111117021916
+188.230.55.192 3 57 616369 20111117080425
+195.211.85.4 1 45 574013 20111117081735
+82.207.50.140 1 46 568568 20111117100012
+95.69.213.184 2 52 614803 20111117111414
+31.43.89.138 1 47 574572 20111117091153
+77.123.174.33 1 51 1722810 20111117213644
+178.212.247.130 1 46 568283 20111117080455
+77.123.181.220 1 45 568273 20111117015350
+193.93.218.58 3 3 22663 20111117134658
+94.231.74.38 1 45 574013 20111117040719
+91.201.188.159 2 20 358136 20111117083409
+188.163.69.114 1 51 610030 20111117084515
+178.137.164.43 2 47 582078 20111117094019
+194.44.190.131 1 47 568832 20111117050250
+194.44.250.22 1 46 574576 20111117103009
+178.95.65.54 5 64 1528961 20111117034526
+62.221.56.179 2 49 594959 20111117092034
+95.220.158.25 0 1 382 
+188.163.72.251 4 52 627082 20111117142114
+176.14.180.175 0 1 11241 
+178.95.28.90 1 45 574013 20111117015712
+77.123.165.249 1 46 568568 20111117071216
+66.102.12.84 0 1 238 
+89.252.35.106 1 46 568568 20111117090214
+88.155.107.188 1 13 341551 20111117015348
+216.38.216.220 9 49 3977298 20111117145101
+194.44.77.181 1 49 636022 20111117081150
+188.163.64.49 2 66 1169475 20111117013526
+195.72.145.106 2 92 1142876 20111117091038
+85.223.153.78 5 55 649370 20111117015916
+212.2.159.150 2 43 1142962 20111117201704
+109.251.18.5 1 49 619163 20111117133530
+212.178.27.77 2 42 1155926 20111117204845
+91.124.111.50 1 21 470294 20111117155222
+94.178.105.223 5 52 610674 20111117094110
+91.124.102.59 1 21 469683 20111117135901
+109.201.227.43 1 45 572102 20111117110114
+188.230.87.85 2 57 619757 20111117085940
+95.69.208.30 3 50 603362 20111117090111
+85.223.154.100 2 47 586546 20111117121738
+99.229.124.31 1 46 574662 20111117051918
+109.207.86.28 0 1 99601 
+95.67.76.174 1 46 568568 20111117091847
+188.230.65.229 3 50 618821 20111117095521
+95.69.211.161 2 104 1183696 20111117071232
+188.163.64.179 3 54 628087 20111117025435
+178.137.164.250 4 73 1143568 20111117032015
+77.123.182.233 1 45 568273 20111117024123
+188.163.52.253 2 49 589647 20111117064952
+188.230.12.174 9 66 823585 20111117045929
+94.231.65.46 1 67 628332 20111117101012
+93.178.255.167 1 11 300947 20111117204730
+188.163.71.65 1 47 576895 20111117083144
+95.133.28.34 1 45 561828 20111117010800
+178.212.101.203 1 46 574308 20111117083207
+109.251.74.96 1 46 574308 20111117080807
+178.212.247.158 1 52 586956 20111117083551
+77.123.183.4 1 47 574572 20111117081052
+213.174.2.12 1 3 100138 20111117083240
+188.230.81.156 2 67 1344716 20111117103113
+74.125.78.87 0 2 8946 
+46.247.199.234 2 49 588327 20111117083345
+194.44.241.32 3 54 614534 20111117072049
+94.231.64.194 2 48 589029 20111117032227
+77.123.41.102 2 50 585617 20111117014814
+93.80.17.200 0 1 1185 
+92.113.171.73 1 50 593558 20111117165334
+178.137.18.3 1 1 8122 20111117185740
+178.95.6.146 3 82 853361 20111117031705
+178.210.150.221 1 45 568273 20111117060537
+188.230.66.232 1 36 537826 20111117182441
+94.178.204.114 3 53 602271 20111117101303
+194.44.32.25 1 13 341629 20111117073158
+109.201.228.22 1 45 574013 20111117081038
+93.178.255.138 1 45 572102 20111117211502
+46.202.6.248 14 88 310325 20111117170726
+188.163.71.3 3 53 603269 20111117100903
+91.124.106.220 1 28 419159 20111117182648
+66.102.12.81 0 1 11693 
+194.44.208.77 1 1 51388 20111117103626
+178.212.102.72 4 101 1218913 20111117084109
+93.178.240.21 1 53 559440 20111117095947
+77.120.33.9 3 54 644800 20111117091149
+194.44.190.173 1 46 574308 20111117082256
+188.163.105.168 2 48 575196 20111117014346
+66.102.12.91 0 3 166174 
+178.137.164.66 3 50 590357 20111117092535
+194.44.207.160 1 49 581510 20111117091605
+46.185.120.252 1 1 7250 20111117220341
+77.241.41.182 6 10 82359 20111117011556
+92.249.85.19 3 55 723676 20111117020540
+178.212.247.114 2 47 576338 20111117015430
+178.212.98.27 3 54 608223 20111117103409
+213.174.2.9 1 3 52199 20111117183513
+178.212.247.127 1 45 568273 20111117071117
+46.202.59.205 1 48 567329 20111117120120
+194.44.221.176 1 50 592163 20111117020007
+178.95.26.163 2 48 582078 20111117081718
+194.44.129.80 1 45 574013 20111117100557
+178.95.233.189 4 60 656737 20111117182149
+195.160.234.8 2 48 582078 20111117092618
+91.124.79.23 1 46 568568 20111117094300
+94.231.67.161 4 49 601785 20111117110316
+194.44.125.134 3 51 601010 20111117214013
+176.14.64.62 0 1 2402 
+194.44.240.89 4 54 605711 20111117070834
+194.44.22.29 1 46 568568 20111117084630
+195.22.112.83 10 200 2386486 20111117090254
+195.160.205.34 1 46 568283 20111117084019
+176.8.170.183 4 54 1313667 20111117193821
+91.196.55.28 2 53 614257 20111117101142
+194.44.194.166 1 46 568568 20111117085708
+194.44.208.170 2 2 2643 20111117203941
+94.231.72.119 4 67 1234679 20111117020152
+178.95.55.55 2 49 671201 20111117045427
+91.124.100.26 1 1 8122 20111117192038
+195.211.86.114 5 51 595260 20111117090425
+95.69.214.67 1 46 572397 20111117131330
+91.210.23.231 1 46 568568 20111117053522
+95.69.207.249 1 45 568273 20111117015843
+194.44.216.104 1 11 300947 20111117191403
+94.231.73.172 1 20 381811 20111117201958
+213.130.28.116 1 45 568273 20111117100303
+91.124.83.254 1 49 573934 20111117095859
+178.95.198.176 1 51 609944 20111117085352
+194.44.6.162 1 7 272506 20111117101035
+178.95.46.200 10 64 727527 20111117075056
+178.136.240.136 1 47 574572 20111117092408
+194.44.111.10 1 11 169824 20111117084259
+66.102.12.80 0 2 22560 
+93.178.212.180 1 47 568832 20111117082750
+62.221.56.121 4 70 3633362 20111117092050
+176.195.47.182 0 2 1070 
+194.44.207.128 1 52 607000 20111117023800
+188.230.6.19 1 49 587973 20111117080437
+188.163.18.149 3 56 616398 20111117093340
+94.231.65.4 1 45 568273 20111117095256
+178.95.10.181 9 80 1174282 20111117083206
+91.196.55.195 2 48 601004 20111117101851
+62.221.56.101 1 46 568568 20111117024104
+178.137.16.242 3 49 583527 20111117075703
+91.124.22.254 10 101 1200567 20111117183016
+91.225.201.85 1 46 574308 20111117024333
+91.124.34.230 1 52 586697 20111117083139
+91.124.138.30 1 23 512898 20111117150454
+109.251.75.216 1 45 568310 20111117003306
+178.212.98.154 9 58 695510 20111117151548
+91.124.117.121 2 48 582342 20111117085339
+178.95.39.167 2 46 576043 20111117085633
+109.167.85.127 1 9 111925 20111117154845
+91.124.80.54 1 50 692238 20111117172353
+188.230.45.124 1 46 607632 20111117083611
+91.124.156.177 1 47 574572 20111117025436
+188.191.47.199 2 47 582078 20111117091935
+193.41.186.202 1 45 568273 20111117082608
+109.251.24.206 2 98 1195958 20111117101420
+188.230.49.141 1 45 574013 20111117085708
+194.44.255.95 2 48 576602 20111117095856
+188.191.65.176 1 47 574572 20111117093804
+188.163.52.227 2 47 576338 20111117061513
+91.202.242.51 1 45 572102 20111117215345
+91.124.63.114 1 33 461559 20111117092004
+178.95.91.111 1 11 298336 20111117100425
+188.230.14.112 8 161 1808008 20111117221521
+95.69.210.175 2 51 617419 20111117093142
+66.102.12.89 0 1 16481 
+194.44.221.10 5 109 2340010 20111117172813
+188.163.74.21 1 45 575597 20111117150054
+46.135.84.18 1 45 568273 20111117090457
+193.93.219.106 2 50 592852 20111117073101
+178.95.69.27 2 48 575654 20111117054216
+194.44.236.148 1 46 574308 20111117020719
+178.137.162.137 1 11 170064 20111117095448
+217.173.198.237 3 53 602074 20111117015704
+89.105.227.42 2 49 602311 20111117100821
+195.110.7.107 1 47 568832 20111117094609
+95.133.82.71 1 46 568568 20111117094452
+91.200.115.88 1 46 574308 20111117093812
+66.102.12.82 0 4 43905 
+109.201.226.206 5 52 618445 20111117084048
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20111117 2292 31879 409156263 657
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 6
+5mn-15mn 36
+0s-30s 436
+30s-2mn 98
+2mn-5mn 49
+15mn-30mn 12
+30mn-1h 20
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/index.php 1384 10798832 622 630
+/components/com_joomlawatch/last.php 570 165300 0 0
+/administrator/index.php 116 601536 0 0
+/ 83 590150 31 6
+/templates/bkt/flash/change.swf 41 25681663 0 16
+/components/com_joomlawatch/js/joomlawatch.js.php 24 81537 0 0
+/components/com_joomlawatch/stats.php 23 34400 0 0
+/administrator/index2.php 21 118742 0 0
+/components/com_joomlawatch/visits.php 14 9762 0 1
+/shedule/shedule.php 4 8702 0 2
+/administrator/ 3 10868 1 0
+/shedule/add.php 3 3451 0 0
+/shedule/index.php 3 4908 1 2
+/shedule/ 3 1377 2 0
+END_SIDER

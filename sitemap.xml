@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://bkt.lviv.ua/</loc>
+	<lastmod>2013-03-15T17:26:23+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/</loc>
+	<lastmod>2013-03-15T17:26:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=52</loc>
+	<lastmod>2013-03-15T17:26:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/about</loc>
+	<lastmod>2013-03-15T17:26:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses</loc>
+	<lastmod>2013-03-15T17:26:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya</loc>
+	<lastmod>2013-03-15T17:26:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/c-plus-plus</loc>
+	<lastmod>2013-03-15T17:26:32+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/c-plus-plus/pochatkovui</loc>
+	<lastmod>2013-03-15T17:26:33+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/c-plus-plus/proffesional</loc>
+	<lastmod>2013-03-15T17:26:33+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/osnovy-programming</loc>
+	<lastmod>2013-03-15T17:26:35+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/c-sharp</loc>
+	<lastmod>2013-03-15T17:26:35+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/c-sharp/pochatkovui</loc>
+	<lastmod>2013-03-15T17:26:36+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/Java</loc>
+	<lastmod>2013-03-15T17:26:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/Java/pochatkovui</loc>
+	<lastmod>2013-03-15T17:26:38+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/Java/proffesional</loc>
+	<lastmod>2013-03-15T17:26:39+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/web-programming</loc>
+	<lastmod>2013-03-15T17:26:40+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/web-programming/JavaScript</loc>
+	<lastmod>2013-03-15T17:26:41+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/web-programming/PHP</loc>
+	<lastmod>2013-03-15T17:26:41+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/web-programming/PHP/pochatkovui</loc>
+	<lastmod>2013-03-15T17:26:42+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/web-programming/PHP/proffesional</loc>
+	<lastmod>2013-03-15T17:26:44+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/web-programming/Html-Css</loc>
+	<lastmod>2013-03-15T17:26:44+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/web-programming/seo</loc>
+	<lastmod>2013-03-15T17:26:45+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/objective-c</loc>
+	<lastmod>2013-03-15T17:26:47+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/objective-c/pochatkovui</loc>
+	<lastmod>2013-03-15T17:26:47+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/objective-c/proffesional</loc>
+	<lastmod>2013-03-15T17:26:48+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/Ruby</loc>
+	<lastmod>2013-03-15T17:26:49+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/Ruby/pochatkovui</loc>
+	<lastmod>2013-03-15T17:26:49+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/Ruby/proffesional</loc>
+	<lastmod>2013-03-15T17:26:50+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/XML-XSLT</loc>
+	<lastmod>2013-03-15T17:26:52+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/programyvannya/MySql</loc>
+	<lastmod>2013-03-15T17:26:52+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/kompyuterna-grafika</loc>
+	<lastmod>2013-03-15T17:26:53+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/kompyuterna-grafika/Adobe-Photoshop</loc>
+	<lastmod>2013-03-15T17:26:55+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/kompyuterna-grafika/Adobe-Illustrator</loc>
+	<lastmod>2013-03-15T17:26:55+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/Kompyuterna_animaciya</loc>
+	<lastmod>2013-03-15T17:26:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/Kompyuterna_animaciya/Adobe-Flash</loc>
+	<lastmod>2013-03-15T17:26:58+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/Kompyuterna_animaciya/ActionScript</loc>
+	<lastmod>2013-03-15T17:26:58+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/bazovi-kompyuterni-kursy</loc>
+	<lastmod>2013-03-15T17:26:58+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/bazovi-kompyuterni-kursy/Kompyuter-dlya-pochatkivciv</loc>
+	<lastmod>2013-03-15T17:27:00+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/bazovi-kompyuterni-kursy/dlya-pensioneriv</loc>
+	<lastmod>2013-03-15T17:27:01+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/bazovi-kompyuterni-kursy/</loc>
+	<lastmod>2013-03-15T17:27:01+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/buxgalteriya</loc>
+	<lastmod>2013-03-15T17:27:03+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/buxgalteriya/buxgalterskyj-oblik</loc>
+	<lastmod>2013-03-15T17:27:03+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/buxgalteriya/1c-7_7</loc>
+	<lastmod>2013-03-15T17:27:04+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/buxgalteriya/1c-8_2</loc>
+	<lastmod>2013-03-15T17:27:06+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/buxgalteriya/programming-1c-8_2</loc>
+	<lastmod>2013-03-15T17:27:06+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/buxgalteriya/programming-1c-7_7</loc>
+	<lastmod>2013-03-15T17:27:07+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/dlya-ditej</loc>
+	<lastmod>2013-03-15T17:27:09+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/dlya-ditej/bazova-kompyuterna-pidgotovka</loc>
+	<lastmod>2013-03-15T17:27:09+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/dlya-ditej/grafika</loc>
+	<lastmod>2013-03-15T17:27:09+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/dlya-ditej/web-designe</loc>
+	<lastmod>2013-03-15T17:27:11+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/courses/dlya-ditej/osnovy</loc>
+	<lastmod>2013-03-15T17:27:12+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/online_registration</loc>
+	<lastmod>2013-03-15T17:27:13+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/gob</loc>
+	<lastmod>2013-03-15T17:27:15+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=51</loc>
+	<lastmod>2013-03-15T17:27:15+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/?option=com_content&amp;view=category&amp;id=1&amp;pid=52</loc>
+	<lastmod>2013-03-15T17:27:15+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/aktsiyi_ta_znyzhky</loc>
+	<lastmod>2013-03-15T17:27:19+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/blog</loc>
+	<lastmod>2013-03-15T17:27:19+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/feedbacks</loc>
+	<lastmod>2013-03-15T17:27:20+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/programyvannya</loc>
+	<lastmod>2013-03-15T17:27:21+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/kompyuterna-grafika</loc>
+	<lastmod>2013-03-15T17:27:22+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/Kompyuterna_animaciya</loc>
+	<lastmod>2013-03-15T17:27:23+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/bazovi-kompyuterni-kursy</loc>
+	<lastmod>2013-03-15T17:27:24+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/buxgalteriya</loc>
+	<lastmod>2013-03-15T17:27:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/dlya-ditej</loc>
+	<lastmod>2013-03-15T17:27:26+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/about</loc>
+	<lastmod>2013-03-15T17:27:26+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses</loc>
+	<lastmod>2013-03-15T17:27:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya</loc>
+	<lastmod>2013-03-15T17:27:28+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/c-plus-plus</loc>
+	<lastmod>2013-03-15T17:27:29+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/c-plus-plus/pochatkovui</loc>
+	<lastmod>2013-03-15T17:27:30+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/c-plus-plus/proffesional</loc>
+	<lastmod>2013-03-15T17:27:31+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/osnovy-programming</loc>
+	<lastmod>2013-03-15T17:27:31+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/c-sharp</loc>
+	<lastmod>2013-03-15T17:27:33+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/c-sharp/pochatkovui</loc>
+	<lastmod>2013-03-15T17:27:33+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/Java</loc>
+	<lastmod>2013-03-15T17:27:34+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/Java/pochatkovui</loc>
+	<lastmod>2013-03-15T17:27:35+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/Java/proffesional</loc>
+	<lastmod>2013-03-15T17:27:36+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/web-programming</loc>
+	<lastmod>2013-03-15T17:27:37+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/web-programming/JavaScript</loc>
+	<lastmod>2013-03-15T17:27:38+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/web-programming/PHP</loc>
+	<lastmod>2013-03-15T17:27:39+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/web-programming/PHP/pochatkovui</loc>
+	<lastmod>2013-03-15T17:27:39+01:00</lastmod>
+	<priority>0.1</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/web-programming/PHP/proffesional</loc>
+	<lastmod>2013-03-15T17:27:40+01:00</lastmod>
+	<priority>0.1</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/web-programming/Html-Css</loc>
+	<lastmod>2013-03-15T17:27:41+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/web-programming/seo</loc>
+	<lastmod>2013-03-15T17:27:42+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/objective-c</loc>
+	<lastmod>2013-03-15T17:27:43+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/objective-c/pochatkovui</loc>
+	<lastmod>2013-03-15T17:27:44+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/objective-c/proffesional</loc>
+	<lastmod>2013-03-15T17:27:46+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/Ruby</loc>
+	<lastmod>2013-03-15T17:27:47+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/Ruby/pochatkovui</loc>
+	<lastmod>2013-03-15T17:27:48+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/Ruby/proffesional</loc>
+	<lastmod>2013-03-15T17:27:50+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/XML-XSLT</loc>
+	<lastmod>2013-03-15T17:27:50+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/programyvannya/MySql</loc>
+	<lastmod>2013-03-15T17:27:51+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/kompyuterna-grafika</loc>
+	<lastmod>2013-03-15T17:27:53+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/kompyuterna-grafika/Adobe-Photoshop</loc>
+	<lastmod>2013-03-15T17:27:53+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/kompyuterna-grafika/Adobe-Illustrator</loc>
+	<lastmod>2013-03-15T17:27:53+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/Kompyuterna_animaciya</loc>
+	<lastmod>2013-03-15T17:27:55+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/Kompyuterna_animaciya/Adobe-Flash</loc>
+	<lastmod>2013-03-15T17:27:56+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/Kompyuterna_animaciya/ActionScript</loc>
+	<lastmod>2013-03-15T17:27:56+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/bazovi-kompyuterni-kursy</loc>
+	<lastmod>2013-03-15T17:27:58+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/bazovi-kompyuterni-kursy/Kompyuter-dlya-pochatkivciv</loc>
+	<lastmod>2013-03-15T17:27:59+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/bazovi-kompyuterni-kursy/dlya-pensioneriv</loc>
+	<lastmod>2013-03-15T17:27:59+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/bazovi-kompyuterni-kursy/</loc>
+	<lastmod>2013-03-15T17:28:00+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/buxgalteriya</loc>
+	<lastmod>2013-03-15T17:28:01+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/buxgalteriya/buxgalterskyj-oblik</loc>
+	<lastmod>2013-03-15T17:28:01+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/buxgalteriya/1c-7_7</loc>
+	<lastmod>2013-03-15T17:28:03+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/buxgalteriya/1c-8_2</loc>
+	<lastmod>2013-03-15T17:28:04+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/buxgalteriya/programming-1c-8_2</loc>
+	<lastmod>2013-03-15T17:28:04+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/buxgalteriya/programming-1c-7_7</loc>
+	<lastmod>2013-03-15T17:28:05+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/dlya-ditej</loc>
+	<lastmod>2013-03-15T17:28:07+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/dlya-ditej/bazova-kompyuterna-pidgotovka</loc>
+	<lastmod>2013-03-15T17:28:07+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/dlya-ditej/grafika</loc>
+	<lastmod>2013-03-15T17:28:08+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/dlya-ditej/web-designe</loc>
+	<lastmod>2013-03-15T17:28:09+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/courses/dlya-ditej/osnovy</loc>
+	<lastmod>2013-03-15T17:28:09+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/online_registration</loc>
+	<lastmod>2013-03-15T17:28:11+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/gob</loc>
+	<lastmod>2013-03-15T17:28:12+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=51</loc>
+	<lastmod>2013-03-15T17:28:13+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/?option=com_content&amp;view=category&amp;id=1&amp;pid=52</loc>
+	<lastmod>2013-03-15T17:28:13+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/aktsiyi_ta_znyzhky</loc>
+	<lastmod>2013-03-15T17:28:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/blog</loc>
+	<lastmod>2013-03-15T17:28:15+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/programyvannya</loc>
+	<lastmod>2013-03-15T17:28:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/kompyuterna-grafika</loc>
+	<lastmod>2013-03-15T17:28:18+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/Kompyuterna_animaciya</loc>
+	<lastmod>2013-03-15T17:28:18+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/bazovi-kompyuterni-kursy</loc>
+	<lastmod>2013-03-15T17:28:18+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/blog/yak-vybraty-kursi-prohrnamuvannya.html</loc>
+	<lastmod>2013-03-15T17:28:20+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/blog/Specalnist-programist.html</loc>
+	<lastmod>2013-03-15T17:28:20+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/blog/viddalene-programyvannya-na-blog.html</loc>
+	<lastmod>2013-03-15T17:28:21+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/blog/1C7_7-1c8_1.html</loc>
+	<lastmod>2013-03-15T17:28:23+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/blog/vubir-notebook.html</loc>
+	<lastmod>2013-03-15T17:28:23+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/blog/bux-kursi-plus.html</loc>
+	<lastmod>2013-03-15T17:28:24+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/blog/kyrsi_dlya_ditej_bkt.html</loc>
+	<lastmod>2013-03-15T17:28:26+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/blog/profesiya_programista.html</loc>
+	<lastmod>2013-03-15T17:28:26+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/feedbacks</loc>
+	<lastmod>2013-03-15T17:28:26+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/buxgalteriya</loc>
+	<lastmod>2013-03-15T17:28:29+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/dlya-ditej</loc>
+	<lastmod>2013-03-15T17:28:29+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/blog/Kursi-programuvannya-na-blog.html</loc>
+	<lastmod>2013-03-15T17:28:31+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/blog/proffesiya-programist.html</loc>
+	<lastmod>2013-03-15T17:28:32+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/blog/ydalonniye-programirovaniye-na-blog.html</loc>
+	<lastmod>2013-03-15T17:28:34+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/blog/1C7_7-1c8_1.html</loc>
+	<lastmod>2013-03-15T17:28:34+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/blog/vubir-notebook.html</loc>
+	<lastmod>2013-03-15T17:28:34+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/blog/bux-kursi-plus.html</loc>
+	<lastmod>2013-03-15T17:28:36+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/blog/kyrsi_dlya_ditej_bkt.html</loc>
+	<lastmod>2013-03-15T17:28:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://bkt.lviv.ua/ru/blog/profesiya_programista.html</loc>
+	<lastmod>2013-03-15T17:28:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+</urlset>

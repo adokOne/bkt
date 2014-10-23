@@ -1,0 +1,103 @@
+<!--<div class="b_shadow" style="display: none;" data-auto-controller="CallBackController">
+  <div class="b_popup">
+    <div class="b_text_content" style="text-align: center;">
+      <p>Вкажіть Ваш номер телефону та ім'я. Ми до Вас зателефонуемо</p>
+      <div class="b_text_center">
+      	<form action="/callback">
+      		<p>Телефон</p>
+      		<input required="required" type="text" name="phone">
+      		<p>Ім'я</p>
+      		<input required="required" type="text" name="name">
+      	</form>
+        <a href="#" class="button"><em class="b_rs"></em>Ок</a>
+      </div> 
+    </div> 
+  </div> 
+</div>-->
+		<div id="footer">
+			
+			<div id="first">
+			
+			<a href="http://bkt"><img src="/images/logo_admin.png"></a>
+			<p><b>Моб. (050) 503-41-55</b><br>
+			Львів, вул. Т. Костюшка 18<br><br>
+			
+			Copyright 2010 www.bkt.lviv.ua</p>
+			
+			</div>
+			
+			<div id="second">
+			<h6>РОЗДІЛИ САЙТУ</h6>
+			<ul>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=47">Навчальні курси</a></li>       
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=48">Дизайн</a></li>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=49">Обслуговування пк</a></li>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=51">Прайс</a></li>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=52">Контакти</a></li>
+			
+			</ul>
+			</div>
+			
+			<div id="third">
+			<h6>НАВЧАННЯ</h6>
+			<ul>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=61">Базовий курс</a></li>           
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=64">Програмування</a></li>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=62">Комп'ютерна графіка</a></li>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=63">Комп'ютерна анімація</a></li>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=94">Адміністрування</a></li>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=65">Іноземні мови</a></li>
+			
+			</ul>
+			</div>
+			
+			<div id="fourth">
+			<h6>ДИЗАЙН</h6>
+			<ul>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=66">Дизайн сайтів</a></li>          
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=67">Фірмовий стиль</a></li>
+			
+			
+			
+			</ul>
+			</div>
+			
+			<div id="fifth">
+			<h6>ОБСЛУГОВУВАННЯ</h6>
+			<ul>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=69">Базові послуги</a></li>       
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=70">Сервіси</a></li>   
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=72">Мережеві послуги</a></li>   
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=71">Встановлення ПЗ</a></li>
+			<li><a href="http://bkt.lviv.ua/index.php?option=com_content&amp;view=category&amp;id=1&amp;pid=73">Продаж ПК</a></li>
+			
+			</ul>
+			</div>
+
+		</div><!--/footer-->
+
+
+
+	</div><!--/main-->
+		<span id="call_back_button" class="call_back_button sh_help_button_right" style="">
+			<a href="#" class="sh_help_button_chat"></a>
+			<div class="sh_help_button_line"></div>
+			<div class="sh_help_button_text">З</div>
+			<div class="sh_help_button_text">а</div>
+			<div class="sh_help_button_text">м</div>
+			<div class="sh_help_button_text">о</div>
+			<div class="sh_help_button_text">в</div>
+			<div class="sh_help_button_text">и</div>
+			<div class="sh_help_button_text">т</div>
+			<div class="sh_help_button_text">и</div>
+			<div class="sh_help_button_text"> </div>
+			<div class="sh_help_button_text">д</div>
+			<div class="sh_help_button_text">з</div>
+			<div class="sh_help_button_text">в</div>
+			<div class="sh_help_button_text">і</div>
+			<div class="sh_help_button_text">н</div>
+			<div class="sh_help_button_text">о</div>
+			<div class="sh_help_button_text">к</div>
+		</span>
+	</body>
+</html>

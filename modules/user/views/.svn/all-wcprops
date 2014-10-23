@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/spotters/!svn/ver/5/trunk/modules/user/views
+END
+login_baloon.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/login_baloon.php
+END
+ajax_login_register.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/ajax_login_register.php
+END
+profile_settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/profile_settings.php
+END
+reminder_form_only.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/reminder_form_only.php
+END
+registered.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/registered.php
+END
+remind_send.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/remind_send.php
+END
+friend_one.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/friend_one.php
+END
+remind_success.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/remind_success.php
+END
+remindpwd_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/remindpwd_form.php
+END
+friends_add_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/friends_add_form.php
+END
+messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/messages.php
+END
+my_events.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/my_events.php
+END
+password_reminder_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/password_reminder_form.php
+END
+reminder_email.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/reminder_email.php
+END
+reminder_email_success.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/reminder_email_success.php
+END
+user_menu.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/user_menu.php
+END
+friends.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/friends.php
+END
+friends_added.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/friends_added.php
+END
+tags.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/tags.php
+END
+login_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/login_form.php
+END
+userpage.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/userpage.php
+END
+social_network.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/social_network.php
+END
+adverts.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/adverts.php
+END
+profile_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/profile_edit.php
+END
+register_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/register_form.php
+END
+xd_receiver.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/xd_receiver.php
+END
+agencies.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/agencies.php
+END
+emailchange_email.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/emailchange_email.php
+END
+register_form_only.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/register_form_only.php
+END
+logged_in_card.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/logged_in_card.php
+END
+twitter_baloon.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/twitter_baloon.php
+END
+edit_tags.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/edit_tags.php
+END
+avatar_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/avatar_edit.php
+END
+activation_email.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/activation_email.php
+END
+usersearch.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/spotters/!svn/ver/5/trunk/modules/user/views/usersearch.php
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/spotters/!svn/ver/5/trunk/modules/admin/controllers
+END
+abuse_admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/spotters/!svn/ver/5/trunk/modules/admin/controllers/abuse_admin.php
+END
+users_admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/spotters/!svn/ver/5/trunk/modules/admin/controllers/users_admin.php
+END
+images_admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/spotters/!svn/ver/5/trunk/modules/admin/controllers/images_admin.php
+END
+cities_admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/spotters/!svn/ver/8/trunk/modules/admin/controllers/cities_admin.php
+END
+places_admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/spotters/!svn/ver/8/trunk/modules/admin/controllers/places_admin.php
+END
+admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/spotters/!svn/ver/5/trunk/modules/admin/controllers/admin.php
+END
+gallery_admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/spotters/!svn/ver/5/trunk/modules/admin/controllers/gallery_admin.php
+END
+news_admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/spotters/!svn/ver/8/trunk/modules/admin/controllers/news_admin.php
+END
+countries_admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/spotters/!svn/ver/8/trunk/modules/admin/controllers/countries_admin.php
+END

@@ -1,0 +1,26 @@
+$(document).ready(function(){
+  $('*[data-auto-controller]').each(function() {
+      var plg;
+      if ((plg = $(this)['attach' + $(this).data('auto-controller')])) {
+        return plg.call($(this));
+      }
+     });
+     
+     
+  $("#call_back_button").click(function(ev){
+    ev.preventDefault()
+    $.ajax({
+    	url:"/main/get_call_back_form",
+	type:"post",
+	dataType:"json",
+	success:function(resp){
+		console.log(resp.html)
+		$("#content").after(resp.html);
+		$(".b_shadow").show()
+    		$(".b_shadow").attachCallBackController();
+	}
+    })
+    
+ 
+  })
+});

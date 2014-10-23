@@ -1,0 +1,126 @@
+
+
+	
+	WYMeditor.STRINGS['ru'] = {
+		    Embed:            'Flash',
+		    Strong:           'Жирный',
+		    Emphasis:         'Наклонный',
+		    Superscript:      'Надстрочный',
+		    Subscript:        'Подстрочный',
+		    Ordered_List:     'Нумерованый список',
+		    Unordered_List:   'Ненумерованый список',
+		    Indent:           'Увеличить отступ',
+		    Outdent:          'Уменьшить отступ',
+		    Undo:             'Отменить',
+		    Redo:             'Повторить',
+		    Link:             'Ссылка',
+		    Unlink:           'Удалить ссылку',
+		    Image:            'Изображение',
+		    Table:            'Таблица',
+		    HTML:             'Править HTML',
+		    Paragraph:        'Параграф',
+		    Heading_1:        'Заголовок 1',
+		    Heading_2:        'Заголовок 2',
+		    Heading_3:        'Заголовок 3',
+		    Heading_4:        'Заголовок 4',
+		    Heading_5:        'Заголовок 5',
+		    Heading_6:        'Заголовок 6',
+		    Preformatted:     'Preformatted',
+		    Blockquote:       'Цитата',
+		    Table_Header:     'Заголовок таблицы',
+            URL:              'URL',
+		    VideoURL:         'Видео из Youtube или Vimeo',
+		    Title:            'Заголовок',
+		    Alternative_Text: 'Альтернативный текст',
+		    Caption:          'Надпись',
+		    Summary:          'Summary',
+		    Number_Of_Rows:   'Кол-во строк',
+		    Number_Of_Cols:   'Кол-во столбцов',
+		    Submit:           'Отправить',
+		    Cancel:           'Отмена',
+		    Choose:           'Выбор',
+		    Preview:          'Просмотр',
+		    Paste_From_Word:  'Вставить из Word',
+		    Tools:            'Инструменты',
+		    Containers:       'Контейнеры',
+		    Classes:          'Классы',
+		    Status:           'Статус',
+		    Source_Code:      'Исходный код'
+		};
+
+
+
+	$(function() {
+		
+		var html = $('#description').val();
+		if(html == "") html = "<p><\/p>";
+		
+		var wym = $('#description').wymeditor({
+			html: html,
+			lang: 'ru',
+			state: 'editor',
+			updateSelector: "#submit",
+			boxHtml: ""
+				+ "<div>"
+					+ "<div>"
+						+ WYMeditor.TOOLS
+					+ "</div>"
+					+ "<div class='lr-main lp-main'>"
+					+ WYMeditor.HTML
+					+ WYMeditor.IFRAME
+					+ "</div>"
+				+ "</div>",
+			toolsItems: [
+					 		    { name: 'Bold', title: 'Strong', css: 'wym_tools_strong hovered clicked' }, 
+					 		    { name: 'Italic', title: 'Emphasis', css: 'wym_tools_emphasis hovered clicked' },
+					 		    { name: 'InsertOrderedList', title: 'Ordered_List', css: 'wym_tools_ordered_list hovered clicked' },
+					 		    { name: 'InsertUnorderedList', title: 'Unordered_List', css: 'wym_tools_unordered_list hovered clicked' },
+					 		    { name: 'CreateLink', title: 'Link', css: 'wym_tools_link hovered clicked' },
+					 		    { name: 'Unlink',  title: 'Unlink', css: 'wym_tools_unlink hovered clicked'},
+                                { name: 'InsertImage', title: 'Image', css: 'wym_tools_image'},
+					 		    { name: 'Embed', title: 'Embed', css: 'wym_tools_embed hovered clicked' },
+                                {name: 'ToggleHtml', title: 'HTML', css: 'wym_tools_html'}
+					],
+			 postInit: function(wym) {
+				var $this = this;
+				//handle event on update element
+			    jQuery(wym._options.updateSelector)
+			      .parents("form")
+			      .submit(function(){
+			        wym.update("submit");
+			      })
+
+				var iFrame = jQuery(wym._box).find(wym._options.iframeSelector);
+				var iDoc = jQuery(iFrame.get(0).contentDocument);
+				
+				iDoc
+				  .keyup(function(){
+		  			$this.updateView(wym)
+		  		})
+
+				this.updateView(wym);
+				
+				wym.update("start");
+				wym._iframe.contentWindow.focus()
+				
+			},
+			
+			updateView: function(wym){
+				setTimeout(function(){
+		  		var h = jQuery(wym._doc.body).outerHeight();
+		  		if (h < 400) h = 400;
+
+				if(jQuery.browser.msie) h = 400;
+
+		  		var _iframe = jQuery(wym._iframe);
+		  			//_iframe.parents(wym._options.mainBlockSelector).css({ height: h });
+		  			jQuery(wym._box).find(wym._options.htmlValSelector).css({ height: h });
+				}, 1)
+
+			}
+		});
+		
+		
+		
+	
+});

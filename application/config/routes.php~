@@ -1,0 +1,23 @@
+<?php
+
+$config['_default'] = "main";
+
+
+$config["online_registration"] = "main/online_registration";
+$config['main/get_call_back_form'] = "main/get_call_back_form";
+$config['captcha/kcaptcha'] = "captcha/kcaptcha";
+$config["callback"] = "main/callback";
+$config["online"] = "user/onine_reg";
+$config["blog"] = "news";
+$config["blog/(.*).html"] = "news/index/$1";
+$config["admin"] = "admin";
+$config["admin/(\w+)"] = "admin/$1/$2";
+$config["admin/(\w+)/(\w+)"] = "admin/$1/$2/$3";
+$config["(.*)"] = "main/other/$1";
+
+
+
+
+
+
+

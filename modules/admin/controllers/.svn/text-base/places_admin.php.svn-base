@@ -1,0 +1,113 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+class Places_Admin extends Constructor
+{
+    protected $item_table     = 'airports';
+    protected $orderby        = 'id';
+    protected $order_dir      = 'DESC';
+	protected $use_google_map = TRUE;
+    protected $use_tree       = FALSE;
+    protected $use_form       = TRUE;
+    protected $use_combo      = FALSE;
+    protected $use_logo       = FALSE;
+    protected $buttons        = TRUE;
+    protected $multi_lang     = TRUE;
+	
+    
+    protected $grid_columns = array(
+        "id",
+    	"IATA",
+    	"ICAO",
+    	"countries_id",
+		"city_id",
+   		"latitude",
+     	"longitude",
+    	"(SELECT name FROM city_lang WHERE city_id = daddy.city_id AND id_lang=1) AS city_name",
+    	"(SELECT name FROM airports_lang WHERE airports_id = daddy.id AND id_lang=1) AS name_1",
+    	"(SELECT name FROM airports_lang WHERE airports_id = daddy.id AND id_lang=2) AS name_2",
+    	"(SELECT name FROM airports_lang WHERE airports_id = daddy.id AND id_lang=3) AS name_3",
+    	"(SELECT name FROM countries_lang WHERE countries_id = daddy.countries_id AND id_lang=1) AS county_name",
+        
+    );
+    
+    public  function country_list(){
+		Database_Core::instance()
+								->select("countries.id","name")
+								->from("countries_lang")
+								->where("id_lang",1)
+								->join("countries", 'countries.id','countries_lang.countries_id');
+    	$result = grid::get(FALSE,"ASC");   
+    	echo $result; 
+    }
+    public  function city_list() {
+    	
+		Database_Core::instance()
+								->select("city.id","name")
+								->from("city_lang")
+								->where("id_lang",1)
+								->join("city", 'city.id','city_lang.city_id');
+		if($country_id=$this->input->post('country_id'))
+			Database::instance()->where("city.countries_id",$country_id);
+    	$result = grid::get(FALSE,"ASC");   
+    	echo $result; 
+    } 
+    
+    
+  /*  public function save(){
+    	foreach($_POST as $key=>$val){
+    		if(preg_match("/name_(\d)/i", $key,$lang)) 
+				$data[]=array("id_lang"=>$lang[1],"name"=>$val);
+    	}
+    	var_dump($data);
+    }
+    
+   /* public function country_list(){
+		$id_lang = intval($this->input->post("id_lang")) > 0 ? $this->input->post("id_lang") : Kohana::config("core.default_lang") ;
+		Database_Core::instance()
+								->select("id_lang","countries.id","name")
+								->from("countries_lang")
+								->where("id_lang",$id_lang)
+								->join("countries", 'countries.id','countries_lang.country_id');
+    	$result = grid::get(FALSE,"ASC");   
+    	echo $result; 
+    }
+
+    public function city_list(){
+		$id_lang = intval($this->input->post("id_lang")) > 0 ? $this->input->post("id_lang") : Kohana::config("core.default_lang") ;
+		Database_Core::instance()
+								->select("id_lang","city.id","name")
+								->from("city_lang")
+								->where("id_lang",$id_lang)
+								->join("city", 'city.id','city_lang.city_id');
+    	$result = grid::get(FALSE,"ASC");   
+    	echo $result; 
+    }
+    
+    
+    public function iata_list(){
+    	Database::instance()
+    						->from($this->item_table)
+    						->select("DISTINCT IATA")
+    						->get();
+    	$result = grid::get(
+					    	$this->input->post('sort', 'id' ,true),
+					    	$this->input->post('dir',  'desc',true),
+				    		FALSE
+    					);    
+    	echo json_encode($result);
+    }
+    
+    public function icao_list(){
+    	Database::instance()
+    						->from($this->item_table)
+    						->select("DISTINCT ICAO")
+    						->get();
+    	$result = grid::get(
+					    	$this->input->post('sort', 'id' ,true),
+					    	$this->input->post('dir',  'desc',true),
+				    		FALSE
+    					);    
+    	echo json_encode($result);
+    }*/
+ 
+}

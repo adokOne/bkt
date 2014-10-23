@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/new.bkt.lviv.ua/webstat"
+AuthUserFile /var/www/vh-5118/data/etc/14580046.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

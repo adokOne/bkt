@@ -1,0 +1,30 @@
+var abuse_button = '#complain_send';
+var abuse_content = '#abuse_container';
+var abuse_type_select = '#complain';
+var abuse_item = '#abuse_item_id';
+
+
+$(document).ready(function(){
+	
+});
+
+function abuse_submit(item_type, item_id){
+	var type = $(abuse_type_select).val();
+
+	$.ajax({
+	      url: "/abuse/send",
+	      type: "POST",
+	      data: {'type' : type,	
+				 'item_type' : item_type,
+	    	  	 'item_id' : item_id 
+	    	  	},
+	      dataType: "json",
+	      success: function(response){
+	      	if(response.status == 'ok'){
+	      		$(abuse_content).html( '<center><br>' + response.msg + '</center>' );
+	      	}else {
+	      		alert(response.msg);
+	      	}
+	      }
+	   });
+}

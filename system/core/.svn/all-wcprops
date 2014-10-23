@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/spotters/!svn/ver/5/trunk/system/core
+END
+Event.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/spotters/!svn/ver/5/trunk/system/core/Event.php
+END
+Benchmark.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/spotters/!svn/ver/5/trunk/system/core/Benchmark.php
+END
+Bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/spotters/!svn/ver/5/trunk/system/core/Bootstrap.php
+END
+Kohana.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/spotters/!svn/ver/5/trunk/system/core/Kohana.php
+END
+utf8.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/spotters/!svn/ver/5/trunk/system/core/utf8.php
+END

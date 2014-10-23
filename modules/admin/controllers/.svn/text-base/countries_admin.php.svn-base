@@ -1,0 +1,31 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+class Countries_Admin extends Constructor
+{
+    protected $item_table   = 'countries';
+    protected $orderby      = 'id';
+    protected $order_dir    = 'DESC';
+    protected $buttons      = TRUE;
+    protected $multi_lang   = TRUE;
+    protected $use_form     = FALSE;
+	
+    protected $Stores=array("Country");
+    
+    protected $grid_columns = array(
+        "id",
+    	"status",
+    	"(SELECT name FROM countries_lang WHERE countries_id = daddy.id AND id_lang=1) AS name_1",
+    	"(SELECT name FROM countries_lang WHERE countries_id = daddy.id AND id_lang=2) AS name_2",
+    	"(SELECT name FROM countries_lang WHERE countries_id = daddy.id AND id_lang=3) AS name_3",
+        
+    );
+    public function Country_List(){
+    	Database_Core::instance()
+								->select("countries.id","name")
+								->from("countries_lang")
+								->where("id_lang",1)
+								->join("countries", 'countries.id','countries_lang.countries_id');
+    	$result = grid::get(FALSE,"ASC");   
+    	echo $result; 
+    }
+}

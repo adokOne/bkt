@@ -1,0 +1,114 @@
+a.menu_bar:hover ul{
+	display:block;
+}
+
+
+.jqueryslidemenu {
+	font: bold 11px Arial, Geneva, sans-serif;/*Øðèôò ìåíþ âåðõíåãî óðîâíÿ*/
+	height:30px;/*Âûñîòà ìåíþ*/
+	width: 900px;/*Øèðèíà ìåíþ*/
+	margin:0 auto;/*Âûðàâíèâàíèå ïî öåíòðó ñòðàíèöû*/
+	line-height:27px;
+	
+	
+	/*Ëåâàÿ ðàìêà äëÿ ñèììåòðèè*/
+}
+.jqueryslidemenu a {
+	outline:none;
+}
+.jqueryslidemenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.jqueryslidemenu ul li {
+	position: relative;
+	display: inline;
+	float: left; margin:0px; padding:0px
+}
+.jqueryslidemenu ul li a {
+	display: block;
+	background-image:url(../img/breaker.png);
+	background-repeat:no-repeat;
+	background-position:right;/*Ôîí ìåíþ âåðõíåãî óðîâíÿ*/
+	padding: 7px 25.2px;
+	/*Ðàçäåëèòåëüíàÿ ðàìêà ïóíêòîâ ìåíþ âåðõíåãî óðîâíÿ*/
+	color:#666;/*Öâåò òåêñòà ìåíþ âåðõíåãî óðîâíÿ*/
+	text-decoration: none; text-shadow:1px 1px #fff;
+}
+.jqueryslidemenu ul li a:link{
+	color:#666;/*Öâåò àêòèâíûõ è ïîñåù¸ííûõ ññûëîê âåðõíåãî óðîâíÿ*/
+}
+.jqueryslidemenu ul li a:hover {
+	background: url(../img/odd_bg.png) no-repeat right;/*Ôîí ìåíþ âåðõíåãî óðîâíÿ ïðè íàâåäåíèè*/
+	color: white;/*Öâåò òåêñòà ìåíþ âåðõíåãî óðîâíÿ ïðè íàâåäåíèè*/
+ text-shadow:none;	
+}
+
+.last:hover{ background-image:url(../img/bg1.gif)}
+.jqueryslidemenu ul li ul {
+	position: absolute;
+	display: block;
+	visibility: hidden; 
+	z-index:100;
+	
+}
+
+
+.jqueryslidemenu ul.base li:hover ul li ul{
+	visibility: hidden;
+}
+.jqueryslidemenu ul.base li ul li:hover ul{
+	visibility: visible;
+}
+li.has_sub:hover ul {
+	visibility:visible;
+}
+.jqueryslidemenu ul li:hover ul{
+	visibility:visible;
+}
+.jqueryslidemenu ul li ul li {
+	display: list-item;
+	float: none; 
+}
+.jqueryslidemenu ul li ul li ul {
+	top: 0;
+}
+.jqueryslidemenu ul li ul li a {
+	
+	background:#999 ;/*Ôîí âûïàäàþùåãî ìåíþ*/
+	font:bold 12px Arial, Geneva, sans-serif;/*Øðèôò âûïàäàþùåãî ìåíþ*/
+	width: 190px; /*øèðèíà âûïàäàþùåãî ìåíþ*/
+	padding: 5px;
+	margin: 0px;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid #CCC;/*Ðàìêà ïóíêòîâ âûïàäàþùåãî ìåíþ*/
+	color:white; padding-top:10px; padding-bottom:10px; text-shadow:1px 1px gray;
+}
+
+.jqueryslidemenu ul li ul li a:link {color:#FFF}
+.jqueryslidemenu ul li ul li a:hover {
+	background: #666 url(../img/bg.gif);/*Ôîí âûïàäàþùåãî ìåíþ ïðè íàâåäåíèè*/
+	color:#333;/*Öâåò òåêñòà âûïàäàþùåãî ìåíþ ïðè íàâåäåíèè*/
+	; text-shadow:1px 1px #F90;
+}
+/*Êëàññû äëÿ ñòðåëîê, èñïîëüçóåò ñêðèïò*/
+
+.downarrowclass {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+}
+.rightarrowclass {
+	position: absolute;
+	top: 13px;
+	right: 5px;
+}
+.jqueryslidemenu ul li ul li ul li ul , .jqueryslidemenu ul li ul li ul  img{
+	display: none;
+}
+
+
+
+/*Ãîðèçîíòàëüíîå âûïàäàþùåå ìåíþ íà jQuery îò http://megaweb.su/  end*/
+z

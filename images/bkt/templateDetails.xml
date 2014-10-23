@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>Bkt</name>
+	<creationDate>24.02.11</creationDate>
+	<author>Oleg</author>
+	<authorEmail>oleg.kuprovskiy@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description></description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>css/template.css</filename>
+	</files>
+    <positions>
+		<position>topmenu</position>
+		<position>leftmenu</position>
+		<position>content</position>
+    </positions>
+</install>

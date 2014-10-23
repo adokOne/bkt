@@ -1,0 +1,25 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+class News_Admin extends Constructor
+{
+    protected $item_table   = 'news';
+    protected $orderby      = 'id';
+    protected $order_dir    = 'ASC';
+    protected $use_tree     = FALSE;
+    protected $use_form     = FALSE;
+    protected $use_combo    = FALSE;
+
+
+    protected $grid_columns = array(
+        "id",
+        "status",
+        "type",
+    	'user_id',
+    	'(SELECT)'
+    );
+    
+    protected $stores = array(
+        
+    );
+
+   
+}

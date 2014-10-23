@@ -1,0 +1,83 @@
+var theModelCarousel = null;
+        
+function modelCarousel_initCallback(carousel) {
+    theModelCarousel = carousel;
+};
+        
+$(document).ready(function(){
+    $('#mycarousel3').jcarousel({
+        initCallback: modelCarousel_initCallback,
+        visible: 3
+    });
+});
+        
+function mark_photo(p_id, u_id, username){
+    u_id = u_id || "";
+    username = username || "";
+    $.ajax({
+        type: "POST",
+        url: "/events/mark_photo",
+        data: {'p_id' : p_id, 'u_id' : u_id, "username": username},
+        dataType: "json",
+        success: function(data){
+            if(data){
+                add_carousel_item(data.id, data.username);
+            }
+        }
+    });
+}
+
+function mark_user(p_id){
+    username = $('#username_to_mark').val();
+    if(username != 'ник пользователя'){
+        mark_photo(p_id, false, username);
+        $('#username_to_mark').val('ник пользователя');
+    }
+}
+
+function mark_self(p_id, u_id){
+    $.ajax({
+        type: "POST",
+        url: "/events/mark_photo",
+        data: {'p_id' : p_id, 'u_id' : u_id},
+        dataType: "json",
+        success: function(data){
+            if(data){
+                add_carousel_item(data.id, data.username);
+                $('#mark_myself').attr('href', "javascript:unmark_self('"+p_id+"','"+u_id+"')");
+                $('#mark_myself span').text("Меня нет на этом фото");
+            }
+        }
+    });
+}
+
+function unmark_self(p_id, u_id){
+    $.ajax({
+        type: "POST",
+        url: "/events/unmark_photo",
+        data: {'p_id' : p_id, 'u_id' : u_id},
+        dataType: "json",
+        success: function(data){
+            if(data.msg == "deleted"){
+                var old_size = theModelCarousel.size();
+                var new_size = old_size - 1;
+                if(new_size == 0){
+                    $('#found_carousel').css('visibility', 'hidden');
+                }
+                var item_id = $("#jcarousel_user_" + u_id).parent().attr("jcarouselindex");
+                theModelCarousel.removeAndAnimate(item_id);
+                $('#mark_myself').attr('href', "javascript:mark_self('"+p_id+"','"+u_id+"')");
+                $('#mark_myself span').text("Я есть на этом фото");
+            }
+        }
+    });
+}
+
+function add_carousel_item(u_id, username){
+    var old_size = theModelCarousel.size();
+    var new_size = old_size + 1;
+    theModelCarousel.size(new_size);
+    new_item = '<a id="jcarousel_user_' + u_id + '" href="/user/' + username + '"><span></span><img height="64" width="64" class="jcenter event_item" src="/img/avatars/' + u_id + '/pic_93.jpg" alt=""></a>';
+    theModelCarousel.add(new_size, new_item);
+    $('#found_carousel').css('visibility', 'visible');
+}

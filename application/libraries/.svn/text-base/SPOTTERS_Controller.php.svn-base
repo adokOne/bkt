@@ -1,0 +1,51 @@
+<?php
+
+class Controller extends Controller_Core {
+	
+	public $logged_in = false;
+	public $user = null;
+	protected $title = null;
+
+	public function __construct(){
+		
+		$this->_set_user();
+		$this->_prepare_layout();
+		$this->_set_title();
+		
+		parent::__construct();
+		
+        //if(PHP_OS == 'WINNT') {
+        //    require_once Kohana::find_file('vendor', 'sphinxapi');
+        //}
+	}
+	
+	private function _set_user(){
+		if( $this->logged_in = Auth::instance()->logged_in() ) {
+			$this->user = Auth::instance()->get_user(); // ORM::factory('user', Auth::instance()->get_user()->id);
+			View::set_global('user',$this->user);
+		}
+	
+		View::set_global('logged_in', $this->logged_in);
+	}
+	
+	private function _prepare_layout(){
+		stylesheet::add(array());
+		javascript::add(array('jquery-1.4.min', 'jquery.jNice', 'jquery-ui-1.8.16.custom.min', 'login', 'jquery.form','jquery.rater', ));
+		
+		//if($this->logged_in){
+        //	  stylesheet::add(array('userstyle'));
+		//	  javascript::add(array('userscript'));
+        //}        
+	}
+	
+	public function _set_title($name = false){
+		if(!$name){
+			$title = Kohana::config('core.sitename');
+		} else {
+			$title = $name . " : " . Kohana::config('core.sitename');
+		}
+		
+		View::set_global('page_title', $title);
+	}
+
+}

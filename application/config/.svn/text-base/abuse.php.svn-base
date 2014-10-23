@@ -1,0 +1,5 @@
+<?php
+$config['types'] = array('dublicate'=>'дубляж', 
+						 'wrond_date'=>'не верная дата',
+						 'be_abandoned'=>'не состоится',
+						 'spam'=> 'спам' );

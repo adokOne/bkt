@@ -1,0 +1,85 @@
+<?php
+class Abuse_Admin extends Controller{
+
+	/**
+	 * Конструктор класса
+	 */
+	public function __construct(){
+		parent::__construct();
+    }
+    
+    public function index(){
+    	
+    	$fields = Database::instance()->list_fields('abuses');
+        
+    	$view = new View('abuse/list');
+    	$view->form_reader = "'" . implode(array_keys($fields), "', '") . "'";
+    	$view->render(true);
+    }
+    
+    public function   list_items(){
+    	
+    	//sorting and pages parameters
+		$dir	= $this->input->post('dir', 'DESC', true);
+		$sort	= $this->input->post('sort', 'id', true);
+		$limit	= $this->input->post('limit', 50, true);
+		$start	= $this->input->post('start', 0, true);
+		$query  = $this->input->post('query', false, true);
+		
+		$where = "1=1 ";
+		
+    	if($query){
+			$where .= " and (users.username like '%$query%' or abuses.tyle  like '%$query%') ";
+		}
+    	
+	   	$items = ORM::factory('abuse')
+	   						->select('abuses.*, users.username')
+	   						->join('users', 'users.id', 'abuses.user_id')
+							->where($where)
+							->orderby($sort, $dir)
+							->find_all($limit, $start);
+							
+		$totalCount = Database::instance()->count_last_query();
+		$i = array();
+		foreach($items as $item){							
+			$i[] = $item->as_array();
+		}
+							
+
+		echo json_encode(array('success'=>true, 'items'=>$i, 'totalCount'=>$totalCount ) );
+    }
+    
+    /**
+	 * Удаление отмеченых записей (GRID)
+	 *
+	 * @return JSON
+	 */
+	public function remove_grid(){
+		$listID = $this->input->post('delete',null,true);
+		if(!$listID){
+			echo $this->_jsonResponse(false);
+			return;
+		}			
+		
+		$deleteRows = json_decode($listID, TRUE);
+
+        foreach ($deleteRows[0] as $row)	{
+			$abuse = ORM::factory('abuse', $row);
+            $abuse->delete();
+		}
+
+		echo $this->_jsonResponse(true);
+	}
+    /**
+	 * Формирует JSON ответ для отправки статуса выполнения в формате
+	 * необходимом для понимания в Ext.js
+	 * 
+	 * @param $success bool статус выполнения true/false
+	 * @param $message sring информация об ошибке
+	 * @return JSON
+	 */
+	public function _jsonResponse($success, $message='ok') {
+		$success = $success ? 'true' : 'false';
+		return '{"success": '.$success.', "msg": "'.$message.'"}';
+	}
+}
